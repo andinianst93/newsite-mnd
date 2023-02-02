@@ -1,0 +1,950 @@
+// 头部
+.htip {
+  height: 29px;
+  line-height: 29px;
+  color: #121212;
+  background: #e6e8fb;
+  text-align: left;
+  font-size: 11px;
+  .htips {
+    line-height: 29px;
+    text-align: center;
+  }
+
+  a {
+    color: #1c16f7;
+    border-bottom: 1px solid #1c16f7;
+  }
+}
+@media (max-width: 1023px) {
+  html {
+    font-size: 100px;
+  }
+  .htip {
+    height: auto;
+    color: #121212;
+    background: #e6e8fb;
+    text-align: left;
+    font-size: 0.22rem;
+    padding: 0.24rem 0.48rem;
+    .htips {
+      line-height: 0.19rem;
+      text-align: left;
+    }
+
+    a {
+      color: #1c16f7;
+      border-bottom: 1px solid #1c16f7;
+    }
+  }
+
+  //广告
+  .advertise {
+    background-image: linear-gradient(
+      169deg,
+      #040649,
+      #040649 70%,
+      #1c16f7 100%
+    );
+    height: 1.2rem;
+    .advertiseInfo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .close {
+        background-color: #232356;
+        width: 0.5rem;
+        height: 1.2rem;
+        position: relative;
+        img {
+          margin: 0 auto;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          margin-top: -0.15rem; /* 高度的一半 */
+          margin-left: -0.15rem; /* 宽度的一半 */
+        }
+      }
+      .logoInfo {
+        color: #fff;
+        margin-left: -1.2rem;
+        .tipsLogo {
+          width: 0.72rem;
+          height: 0.72rem;
+          margin-right: 0.4rem;
+        }
+        .companyInfo {
+          .name {
+            font-size: 0.3rem;
+          }
+          .scoreItem {
+            line-height: 0;
+            .score {
+              font-size: 0.26rem;
+              margin-left: 0.2rem;
+            }
+          }
+        }
+      }
+      .open {
+        display: block;
+        background-color: #fff;
+        width: 1.36rem;
+        height: 0.64rem;
+        line-height: 0.64rem;
+        border-radius: 0.8rem;
+        text-align: center;
+        color: #1c16f7;
+        font-size: 0.26rem;
+        margin-right: 0.48rem;
+      }
+    }
+  }
+  .menu {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    font-size: 0.13rem;
+    padding: 0.23rem;
+    z-index: 66;
+    background-color: #fff;
+    display: none;
+    .search {
+      width: 6.54rem;
+      height: 0.8rem;
+      background-color: #f5f5f5;
+      border-radius: 0.4rem;
+      padding-left: 0.32rem;
+      margin: 0 auto;
+      padding-right: 1rem;
+    }
+    .searchIcon {
+      background: url("/new-offical/images/index/h5/search.png") no-repeat;
+      width: 0.32rem;
+      height: 0.32rem;
+      position: absolute;
+      right: 0.6rem;
+      top: 0.25rem;
+      background-size: contain;
+    }
+    .close {
+      text-align: right;
+    }
+
+    .clo {
+      font-size: 0.2rem;
+    }
+
+    // 菜单切换
+    .tabTit {
+      height: 0.2rem;
+      color: #000000;
+      line-height: 0.2rem;
+      margin-top: 0.24rem;
+      margin-bottom: 0.24rem;
+      align-items: center;
+      font-size: 0.26rem;
+      padding: 0 0.48rem;
+    }
+    .menuWart {
+      padding: 0.32rem 0rem;
+      .navList {
+        line-height: 0.39rem;
+        margin-top: 0.48rem;
+        margin-bottom: 0.48rem;
+        .cardword {
+          display: block;
+          cursor: pointer;
+          font-size: 0.26rem;
+          color: #000000;
+          line-height: 0.39rem;
+          margin-top: 0.48rem;
+          margin-bottom: 0.48rem;
+          margin-left: 0.72rem;
+        }
+        .titActive {
+          background-color: #f4f3ff;
+          height: 0.8rem;
+        }
+        .active {
+          color: #1c16f7;
+        }
+        .Item {
+          display: none;
+          animation: leftIn 0.5s ease;
+        }
+        .active {
+          display: block;
+          animation: topIn 0.5s ease;
+        }
+      }
+    }
+    @keyframes topIn {
+      from {
+        transform: translateY(20px);
+      }
+    }
+    @keyframes leftIn {
+      from {
+        transform: translateX(100px);
+      }
+    }
+    @keyframes rightIn {
+      from {
+        transform: translateX(-200px);
+      }
+    }
+    // 按钮
+    .mbtns {
+      margin: 0 0.36rem 0;
+      border-top: 1px solid #dfe1e6;
+      border-bottom: 1px solid #dfe1e6;
+      text-align: center;
+      .donwload {
+        font-size: 0.26rem;
+        margin-bottom: 0.32rem;
+        margin-top: 0.32rem;
+      }
+      .moreDonwload {
+        font-size: 0.26rem;
+        margin-bottom: 0.88rem;
+        margin-top: 0.58rem;
+      }
+    }
+    .navBtn {
+      display: flex;
+      justify-content: center;
+      margin-top: 0.32rem;
+      .mbtn {
+        display: inline-block;
+        width: 3.8rem;
+        height: 0.96rem;
+        line-height: 0.96rem;
+        border-radius: 0.52rem;
+        font-size: 0.26rem;
+        color: #ffffff;
+        text-align: center;
+      }
+
+      .mbtn1 {
+        background: #1c16f7;
+        color: #fff;
+        margin-bottom: 0.16rem;
+      }
+
+      .mbtn2 {
+        border: 1px solid #1c16f7;
+        color: #1c16f7;
+        width: 2rem;
+        margin-right: 0.32rem;
+      }
+    }
+    // 其他
+    .other {
+      display: block;
+      font-size: 0.13rem;
+      color: #121212;
+      line-height: 0.39rem;
+    }
+  }
+
+  .menuSty {
+    .login {
+      color: #1c16f7;
+      text-decoration: underline;
+      font-size: 15px;
+    }
+    .colseMenu {
+      display: none;
+    }
+    img {
+      vertical-align: middle;
+      margin-left: 0.24rem;
+    }
+  }
+  // 底部
+  .footer {
+    // 关于我们
+    .about {
+      padding: 32px 0 50px 0;
+      border-bottom: 1px solid #d9d9d9;
+      display: inline;
+    }
+    padding: 0.48rem;
+    .debody {
+      border-bottom: 1px solid #d9d9d9;
+      padding-bottom: 24px;
+      margin-bottom: 29px;
+      display: inline;
+      .debodyL {
+      }
+    }
+    .aboutL {
+      margin-top: 0.48rem;
+      .title {
+        font-size: 0.3rem;
+        font-weight: bold;
+        margin-bottom: 0.16rem;
+      }
+      .logos {
+        margin-bottom: 0.48rem;
+        .title {
+          margin-bottom: 0.432rem;
+          margin-top: 0.48rem;
+        }
+        a {
+          cursor: pointer;
+          display: block;
+          img {
+            width: 0.6rem;
+            height: 0.6rem;
+          }
+        }
+        .followUs {
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 1px solid #d9d9d9;
+          padding-bottom: 0.18rem;
+        }
+      }
+      .contact {
+        line-height: 0.44rem;
+      }
+
+      .text {
+        font-size: 0.26rem;
+        color: #828ca0;
+        line-height: 0.64rem;
+      }
+
+      .pic {
+        align-items: center;
+
+        .logo {
+          height: 40px;
+        }
+
+        .line {
+          display: inline-block;
+          width: 1px;
+          height: 40px;
+          background: #aeaeae;
+          margin: 0 24px;
+        }
+      }
+
+      .store {
+        margin: 0.32rem 0 0.5rem 0;
+        display: flex;
+        .storePic {
+          width: 2.89rem;
+          margin-right: 0.36rem;
+        }
+        .googlePic {
+          width: 3.26rem;
+        }
+        img {
+          margin-right: 0;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .aboutR {
+      flex: 1;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #d9d9d9;
+      padding-bottom: 0.18rem;
+      .text {
+        width: 50%;
+      }
+
+      .texttit {
+        padding-bottom: 20px;
+        color: #121212;
+        border-bottom: 1px solid rgba(18, 18, 18, 0.15);
+        font-weight: bold;
+        width: 82px;
+        font-size: 0.26rem;
+      }
+
+      .textitem {
+        display: block;
+        cursor: pointer;
+        margin-top: 20px;
+        font-size: 13px;
+        font-weight: 500;
+        color: #828ca0;
+
+        .cardword {
+          display: block;
+          margin-bottom: 20px;
+          color: #828ca0;
+        }
+
+        .cardword:hover {
+          cursor: pointer;
+          color: #1c16f7;
+        }
+      }
+      .textitem:hover {
+        cursor: pointer;
+        color: #1c16f7;
+      }
+    }
+
+    // 声明
+    .declare {
+      padding: 30px 0 31px;
+      font-size: 11px;
+      color: #828ca0;
+      line-height: 22px;
+
+      .leg {
+        flex: 1;
+      }
+
+      .deTit {
+        padding: 0.1rem 0 0.48rem 0;
+        line-height: 0.4rem;
+        border-bottom: 1px solid rgba(18, 18, 18, 0.15);
+      }
+
+      .legtit {
+        font-size: 0.26rem;
+        font-weight: 600;
+        color: #121212;
+        margin-bottom: 0.32rem;
+        font-weight: bold;
+      }
+
+      .legitem2 {
+        padding: 0.64rem 0 0rem 0;
+        line-height: 0.32rem;
+      }
+      .legitem3 {
+        margin-top: 0.64rem;
+      }
+      .legitem5 {
+        margin-top: 0.32rem;
+        margin-left: 0.3rem;
+        p {
+          line-height: 22px;
+          font-size: 11px;
+        }
+      }
+
+      .debodyR {
+        margin-top: 0.48rem;
+        .title {
+          font-size: 13px;
+          font-weight: bold;
+        }
+        .brandimg {
+          width: 530px;
+          margin-top: 40px;
+          flex-wrap: wrap;
+          justify-content: flex-end;
+
+          img {
+            display: inline-block;
+            margin: 0 0 16px 38px;
+            height: 48px;
+          }
+        }
+      }
+      .copy {
+        text-align: left;
+        .terms {
+          margin: 0.48rem 0rem;
+          text-align: center;
+          line-height: 0.44rem;
+        }
+      }
+    }
+  }
+}
+
+// 合伙
+.partner {
+  height: 48px;
+  line-height: 48px;
+  border-bottom: 1px solid #dfe1e6;
+  color: #121212;
+  align-items: center;
+
+  .pitem2 {
+    padding-left: 50px;
+    flex: 1;
+  }
+
+  .pitem3 {
+    cursor: pointer;
+
+    font-size: 13px;
+  }
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  background: #fff;
+}
+
+// 导航栏
+.nav {
+  align-items: center;
+  line-height: 40px;
+  font-size: 15px;
+  padding-bottom: 30px;
+  padding-top: 22px;
+  color: #121212;
+  padding-left: 20px;
+  padding-right: 20px;
+  //   .arrow {
+  //     width: 12px;
+  //     height: 24px;
+  //     display: block;
+  //     float: right;
+  //     margin-top: -5px;
+  //     margin-left: 8px;
+  //   }
+  //   .topIcon {
+  //     background: url("/new-offical/images/index/top.png") no-repeat center center;
+  //   }
+
+  .pic {
+    display: block;
+    align-items: center;
+    margin-right: 152px;
+
+    a {
+      position: relative;
+      font-size: 0;
+
+      span {
+        position: absolute;
+      }
+    }
+
+    .logo {
+      height: 40px;
+    }
+
+    .line {
+      display: inline-block;
+      width: 1px;
+      height: 40px;
+      background: #aeaeae;
+      margin: 0 22px;
+    }
+  }
+
+  .navs {
+    display: flex;
+    justify-content: flex-start;
+    .navItem {
+      position: relative;
+      align-items: center;
+      font-size: 15px;
+      color: #121212;
+      margin-right: 40px;
+
+      > span {
+        cursor: pointer;
+      }
+      span::after {
+        font-family: FontAwesome;
+        font-weight: 300;
+        display: inline-block;
+        content: "";
+        background: url("/new-offical/images/index/top.png") no-repeat center
+          center;
+        width: 12px;
+        height: 12px;
+        margin-left: 8px;
+      }
+
+      .cardItem {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        background: #ffffff;
+        box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.16);
+        border-radius: 6px 6px 6px 6px;
+        top: 30px;
+        display: none;
+        padding: 0 1rem 0 0;
+        opacity: 0.5;
+        transition: opacity 0.5s;
+        -webkit-transition: opacity 0.5s;
+
+        &::before {
+          content: "";
+          position: relative;
+          top: -20px;
+          left: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 0;
+          height: 0;
+          border: 10px solid #fff;
+          border-color: transparent transparent #fff transparent;
+        }
+
+        .cardBox {
+          width: 230px;
+
+          .cardtit {
+            font-size: 15px;
+            font-weight: 500;
+            color: #000000;
+            line-height: 40px;
+            margin-bottom: 16px;
+            border-bottom: 1px solid #ccc;
+            padding-left: 15px;
+          }
+
+          .cardword {
+            display: block;
+            cursor: pointer;
+            font-size: 15px;
+            color: #000000;
+            line-height: 50px;
+            padding: 0 15px;
+            &:hover {
+              color: #1c16f7;
+              background-color: #eeeeee;
+              padding: 0 15px;
+              border-radius: 4px;
+            }
+          }
+
+          .active {
+            color: #1c16f7;
+          }
+        }
+
+        .cardL {
+          padding: 0px 0 20px 20px;
+        }
+
+        .cardL1 {
+          padding: 15px 0 0 70px;
+        }
+
+        .cardR {
+          // flex: 1;
+          height: 377px;
+          width: 325px;
+          background: #f6f6f8;
+          padding: 30px 30px 0;
+
+          .ctit {
+            font-size: 20px;
+            font-weight: 500;
+            color: #000000;
+            line-height: 30px;
+            text-align: center;
+          }
+
+          .video1 {
+            width: 168px;
+            margin: 30px auto 30px;
+            width: 264px;
+            padding-left: 40px;
+
+            img {
+              height: 168px;
+            }
+          }
+
+          .store {
+            .pic {
+              cursor: pointer;
+              height: 40px;
+              margin-right: 16px;
+            }
+          }
+        }
+      }
+
+      .cardItem1 {
+        height: 168px;
+        // padding-left: 1.4rem;
+      }
+    }
+  }
+
+  .navItem:hover > .cardItem {
+    display: block;
+    opacity: 1;
+  }
+  .navItem span:hover:after {
+    transform: rotateZ(180deg);
+    -webkit-transform: rotateZ(180deg);
+    -moz-transform: rotateZ(180deg);
+  }
+  .navItem span:hover:after {
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+  }
+
+  .navbtn {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+  }
+
+  .navbtn1 {
+    width: 68px;
+    color: #1c16f7;
+    border: 1px solid #1c16f7;
+  }
+
+  .navbtn2 {
+    width: 158px;
+    background: #1c16f7;
+    color: #fff;
+    margin-left: 16px;
+  }
+
+  .navbtn3 {
+    width: 209px;
+    background: #1c16f7;
+    color: #fff;
+    margin-left: 25px;
+    border-radius: 40px;
+    margin-top: -20px;
+  }
+  .down {
+    color: #1c16f7;
+    font-size: 15px;
+    margin: 10px 15px;
+  }
+}
+
+// 回主页
+.home {
+  padding: 24px 0 67px;
+  font-size: 11px;
+  color: #595959;
+  line-height: 13px;
+}
+
+// 回主页
+.h5home {
+  padding: 0.12rem 0 0 0.24rem;
+  font-size: 0.11rem;
+  color: #595959;
+  line-height: 0.13rem;
+}
+
+// 数字
+// .num {
+//   .nums {
+//     height: 100px;
+//     align-items: center;
+//   }
+
+//   .numItem {
+//     align-items: center;
+//     color: #fff;
+//     font-size: 15px;
+
+//     p {
+//       font-size: 20px;
+//     }
+
+//     .des2 {
+//       //   /deep/.span {
+//       //     font-size: 12px;
+//       //   }
+//     }
+//   }
+// }
+
+@media (min-width: 1024px) {
+  // 底部
+  .footer {
+    // 关于我们
+    .about {
+      padding: 32px 0 50px 0;
+      border-bottom: 1px solid #d9d9d9;
+    }
+    .debody {
+      border-bottom: 1px solid #d9d9d9;
+      padding-bottom: 24px;
+      margin-bottom: 29px;
+    }
+    .aboutL {
+      margin-right: 100px;
+      .title {
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+      .logos {
+        margin-bottom: 41px;
+        .title {
+          margin-bottom: 16px;
+          margin-top: 32px;
+        }
+        a {
+          width: 24px;
+          height: 24px;
+          cursor: pointer;
+          margin-right: 20px;
+        }
+      }
+
+      .text {
+        font-size: 13px;
+        color: #828ca0;
+        line-height: 38px;
+      }
+
+      .pic {
+        align-items: center;
+
+        .logo {
+          height: 40px;
+        }
+
+        .line {
+          display: inline-block;
+          width: 1px;
+          height: 40px;
+          background: #aeaeae;
+          margin: 0 24px;
+        }
+      }
+
+      .store {
+        margin: 16px 0 37px 0;
+
+        img {
+          margin-right: 16px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .aboutR {
+      flex: 1;
+
+      .text {
+        margin-right: 32px;
+        width: 168px;
+      }
+
+      .texttit {
+        padding-bottom: 20px;
+        color: #121212;
+        border-bottom: 1px solid rgba(18, 18, 18, 0.15);
+        font-weight: bold;
+        width: 82px;
+      }
+
+      .textitem {
+        display: block;
+        cursor: pointer;
+        margin-top: 20px;
+        font-size: 13px;
+        font-weight: 500;
+        color: #828ca0;
+
+        .cardword {
+          display: block;
+          margin-bottom: 20px;
+          color: #828ca0;
+        }
+
+        .cardword:hover {
+          cursor: pointer;
+          color: #1c16f7;
+        }
+      }
+      .textitem:hover {
+        cursor: pointer;
+        color: #1c16f7;
+      }
+    }
+
+    // 声明
+    .declare {
+      padding: 30px 0 31px;
+      font-size: 11px;
+      color: #828ca0;
+      line-height: 22px;
+
+      .leg {
+        margin-right: 30px;
+        flex: 1;
+      }
+
+      .deTit {
+        padding: 10px 0 40px 0;
+        line-height: 22px;
+      }
+
+      .legtit {
+        font-size: 13px;
+        font-weight: 500;
+        color: #828ca0;
+        margin-bottom: 14px;
+        font-weight: bold;
+      }
+
+      .legitem2 {
+        padding: 55px 0 30px 0;
+        line-height: 29px;
+      }
+
+      .legitem5 {
+        margin-top: 22px;
+        p {
+          line-height: 22px;
+          font-size: 11px;
+        }
+      }
+
+      .debodyR {
+        width: 608px;
+        .title {
+          font-size: 13px;
+          font-weight: bold;
+        }
+        .brandimg {
+          width: 530px;
+          margin-top: 40px;
+          flex-wrap: wrap;
+          justify-content: flex-end;
+
+          img {
+            display: inline-block;
+            margin: 0 0 16px 38px;
+            height: 48px;
+          }
+        }
+      }
+      .copy {
+        text-align: left;
+        .terms {
+          margin-left: 26px;
+        }
+      }
+    }
+  }
+}

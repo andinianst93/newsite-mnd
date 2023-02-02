@@ -1,0 +1,428 @@
+@media (min-width: 1023px) {
+  // banner
+  .banner {
+    width: 1920px;
+    margin: 0 auto;
+    height: 499px;
+    background: url("/new-offical/images/land/rbanner1.png") center center /
+      1920px 499px;
+    color: #ffffff;
+    padding-top: 172px;
+
+    .btit {
+      width: 557px;
+      font-size: 48px;
+      line-height: 56px;
+    }
+
+    .btit1 {
+      width: 557px;
+
+      margin-top: 16px;
+      font-size: 24px;
+      line-height: 26px;
+    }
+  }
+
+  // 描述
+  .des {
+    margin-top: 64px !important;
+
+    span {
+      font-size: 20px;
+    }
+
+    .desL {
+      width: 330px;
+      font-size: 32px;
+      color: #121212;
+      line-height: 44px;
+    }
+
+    .desR {
+      flex: 1;
+      font-size: 15px;
+      color: #121212;
+      line-height: 32px;
+      margin-left: 80px;
+    }
+  }
+
+  .play {
+    margin-top: 54px !important;
+    background: #ffffff;
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.12);
+    padding: 34px 24px;
+
+    .img {
+      height: 310px;
+    }
+
+    .playR {
+      margin-left: 41px;
+    }
+
+    .ptit {
+      font-size: 32px;
+      color: #121212;
+      line-height: 44px;
+    }
+
+    .ptit1 {
+      font-size: 15px;
+      color: #121212;
+      line-height: 32px;
+      margin: 24px 0 32px 0;
+    }
+
+    .btn {
+      width: 442px;
+      height: 64px;
+      line-height: 64px;
+      background: #e6e8fb;
+      text-align: center;
+
+      a {
+        font-size: 15px;
+        color: #1c16f7;
+        border-bottom: 1px solid #1c16f7;
+      }
+    }
+  }
+
+  // 步骤
+  .step {
+    margin-top: 45px;
+
+    .stit {
+      font-size: 15px;
+      color: #121212;
+      line-height: 32px;
+    }
+
+    .stepcon {
+      flex-wrap: wrap;
+      color: #fff;
+
+      .sItem {
+        padding: 20px;
+        width: 387px;
+        height: 175px;
+        background: #1c16f7;
+        margin-top: 20px;
+      }
+
+      .snum {
+        background-color: #fff;
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        color: #121212;
+        font-size: 20px;
+      }
+
+      .stepdes {
+        font-size: 15px;
+        line-height: 32px;
+        margin-top: 15px;
+      }
+
+      .sItem1 {
+        width: 590px;
+        height: 200px;
+      }
+    }
+  }
+
+  .play1 {
+    height: 334px;
+
+    .img {
+      height: 270px;
+    }
+
+    .ptit1 {
+      margin: 0px 0 32px 0;
+    }
+  }
+
+  .condes {
+    margin-top: 50px !important;
+    font-size: 15px;
+    color: #121212;
+    line-height: 32px;
+  }
+
+  .banner1 {
+    margin: 0 auto;
+    height: 317px;
+    background: url("/new-offical/images/land/rbanner2.png") no-repeat center
+      center / 1200px 317px;
+    color: #ffffff;
+    padding-top: 95px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .btit {
+      width: 609px;
+      font-size: 44px;
+      color: #ffffff;
+      line-height: 64px;
+      padding-left: 100px;
+    }
+  }
+
+  .ftit {
+    font-size: 32px;
+    color: #121212;
+    line-height: 44px;
+  }
+
+  .fcon {
+    font-size: 32px;
+    flex-wrap: wrap;
+  }
+
+  .fItem {
+    width: 45%;
+    margin-top: 25px;
+    height: 160px;
+
+    .fnum {
+      width: 64px;
+      height: 64px;
+      line-height: 64px;
+      text-align: center;
+      background: #1c16f7;
+      box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.16);
+      font-size: 32px;
+      color: #ffffff;
+      margin-right: 24px;
+      margin-top: 8px;
+    }
+
+    .fdes {
+      width: 454px;
+      font-size: 15px;
+      color: #121212;
+      line-height: 32px;
+    }
+  }
+
+  .tel {
+    height: 156px;
+    background: #e9eaed;
+    padding: 20px 0 0 70px;
+    margin-top: 40px !important;
+    margin-bottom: 56px !important;
+    font-size: 15px;
+    color: #000000;
+    line-height: 32px;
+
+    .tels {
+      justify-content: flex-start;
+    }
+
+    .ptit1 {
+      margin: 10px 0 10px 0;
+    }
+
+    .telItem {
+      justify-content: flex-start;
+      margin-right: 68px;
+      align-items: center;
+
+      img {
+        height: 32px;
+        margin-right: 16px;
+      }
+    }
+  }
+
+  // 数字
+  .num {
+    background: url("/new-offical/images/index/num.png") no-repeat center center;
+
+    .nums {
+      height: 100px;
+      align-items: center;
+    }
+
+    .numItem {
+      align-items: center;
+      color: #fff;
+      font-size: 15px;
+
+      p {
+        font-size: 20px;
+      }
+
+      .des2 {
+        // /deep/.span {
+        //   font-size: 12px;
+        // }
+      }
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  html {
+    font-size: 100px;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  // 提示
+  .title {
+    height: 0.64rem;
+    background: #e6e8fb;
+    padding: 0.12rem;
+    line-height: 0.2rem;
+    align-items: center;
+
+    .tit1 {
+      font-size: 0.055rem;
+      color: #121212;
+    }
+
+    .tit2 {
+      color: #1c16f7;
+      border-bottom: 1px solid #1c16f7;
+    }
+  }
+
+  // logo
+  .logo {
+    display: block;
+    padding: 0.14rem 0.24rem 0 0.24rem;
+    align-items: center;
+
+    .logo1 {
+      height: 0.32rem;
+    }
+
+    .logo2 {
+      height: 0.24rem;
+    }
+  }
+
+  .leftOpenInNav {
+    animation: leftIn 0.5s ease;
+  }
+  .leftCloseInNav {
+    animation: rightIn 0.5s ease;
+  }
+  .menu {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    font-size: 0.13rem;
+    padding: 0.23rem;
+    z-index: 66;
+    background-color: #fff;
+    display: none;
+    .close {
+      text-align: right;
+    }
+
+    .clo {
+      font-size: 0.2rem;
+    }
+
+    // 菜单切换
+    .tabTit {
+      height: 0.2rem;
+      color: #000000;
+      line-height: 0.2rem;
+      margin-top: 0.24rem;
+      margin-bottom: 0.24rem;
+      align-items: center;
+      font-size: 0.16rem;
+    }
+
+    .navList {
+      line-height: 0.39rem;
+
+      .cardword {
+        display: block;
+        cursor: pointer;
+        font-size: 0.13rem;
+        color: #000000;
+        line-height: 0.39rem;
+      }
+
+      .active {
+        color: #1c16f7;
+      }
+      .Item {
+        display: none;
+        animation: leftIn 0.5s ease;
+      }
+      .active {
+        display: block;
+        animation: topIn 0.5s ease;
+      }
+    }
+    @keyframes topIn {
+      from {
+        transform: translateY(20px);
+      }
+    }
+    @keyframes leftIn {
+      from {
+        transform: translateX(100px);
+      }
+    }
+    @keyframes rightIn {
+      from {
+        transform: translateX(-200px);
+      }
+    }
+    // 按钮
+    .mbtns {
+      padding: 0.26rem;
+      margin: 0.26rem 0;
+      border-top: 1px solid #dfe1e6;
+      border-bottom: 1px solid #dfe1e6;
+      text-align: center;
+
+      .mbtn {
+        display: inline-block;
+        width: 2.4rem;
+        height: 0.5rem;
+        line-height: 0.5rem;
+        border-radius: 0.4rem;
+        font-size: 0.15rem;
+        color: #ffffff;
+      }
+
+      .mbtn1 {
+        background: #1c16f7;
+        color: #fff;
+        margin-bottom: 0.16rem;
+      }
+
+      .mbtn2 {
+        background: #e6e8fb;
+        color: #121212;
+      }
+    }
+
+    // 其他
+    .other {
+      display: block;
+      font-size: 0.13rem;
+      color: #121212;
+      line-height: 0.39rem;
+    }
+  }
+}

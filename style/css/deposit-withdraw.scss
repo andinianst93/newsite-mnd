@@ -1,0 +1,651 @@
+@media (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+  .pc {
+    display: block;
+  }
+  .mouse {
+    cursor: pointer;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .wid {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  // 蓝色按钮
+  .btn {
+    display: inline-block;
+    width: 196px;
+    height: 50px;
+    line-height: 48px;
+    line-height: 50px;
+    font-size: 15px;
+    border-radius: 26px 26px 26px 26px;
+    text-align: center;
+  }
+  .c-btn {
+    border: 1px solid #ffffff;
+    color: #fff;
+  }
+  // 白色按钮
+  .c-btn1 {
+    color: #1c16f7;
+    background: #ffffff;
+  }
+  .c-btn:hover {
+    cursor: pointer;
+  }
+  .banner {
+    position: relative;
+    margin: 0 auto;
+    height: 512px;
+    color: #fff;
+    text-align: center;
+    .img {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0;
+      height: 512px;
+    }
+    .bannerCenter {
+      position: relative;
+      .title {
+        font-weight: 500;
+        color: #fff;
+        font-size: 48px;
+        margin-bottom: 16px;
+        padding-top: 166px;
+        line-height: 56px;
+        font-size: 48px;
+      }
+      h2 {
+        font-weight: 400;
+        margin-top: 16px;
+        font-size: 15px;
+        color: #ffffff;
+        line-height: 22px;
+      }
+      .top {
+        margin-top: 25px;
+      }
+    }
+  }
+  .iss {
+    font-size: 32px;
+    font-weight: 500;
+    color: #121212;
+    line-height: 38px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  .lineClass {
+    margin-bottom: 64px;
+    .title {
+      font-size: 24px;
+      font-weight: 500;
+      color: #121212;
+      line-height: 28px;
+      margin: 32px 0 16px 0;
+    }
+    .s-title {
+      font-size: 15px;
+      color: #000000;
+      line-height: 22px;
+      margin-bottom: 40px;
+    }
+    ul {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 64px;
+      li {
+        background-color: #fff;
+        width: 387px;
+        height: 238px;
+        padding: 24px;
+        position: relative;
+        border-radius: 16px;
+        border: 1px solid #e6e8fb;
+        .idr {
+          width: 51px;
+          height: 33px;
+          line-height: 33px;
+          text-align: center;
+          background: #f1f1f1;
+          border-radius: 24px;
+          font-size: 11px;
+          color: #abaabc;
+        }
+        .account {
+          color: #b8b8b8;
+          font-size: 13px;
+          margin-top: 28px;
+        }
+        .accountNumber {
+          color: #121212;
+          font-size: 24px;
+          margin-top: 10px;
+        }
+        .bottonItem {
+          margin-top: 20px;
+          .ptHandal {
+            color: #b8b8b8;
+            font-size: 13px;
+            margin-top: 10px;
+            line-height: 20px;
+          }
+          .bnt {
+            cursor: pointer;
+            width: 110px;
+            height: 50px;
+            line-height: 50px;
+            background: #1c16f7;
+            border-radius: 40px 40px 40px 40px;
+            opacity: 1;
+            text-align: center;
+            font-size: 15px;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .plat {
+    font-size: 24px;
+    font-weight: 500;
+    color: #121212;
+    line-height: 28px;
+    margin-bottom: 32px;
+  }
+  .depositDiv {
+    .destit {
+      height: 86px;
+      align-items: center;
+      background: #e6e8fb;
+      padding-left: 32px;
+      font-size: 32px;
+      color: #121212;
+    }
+    .link {
+      align-items: center;
+      font-size: 15px;
+      color: #121212;
+      border-bottom: 1px solid #dfe1e6;
+      border-left: 1px solid #dfe1e6;
+      border-right: 1px solid #dfe1e6;
+      .linkItemL {
+        padding-left: 32px;
+        display: flex;
+        align-items: center;
+        width: 290px;
+        border-top: 1px solid #dfe1e6;
+        border-right: 1px solid #dfe1e6;
+      }
+      .linkItemR {
+        a {
+          display: block;
+          cursor: pointer;
+          width: 311px;
+          height: 50px;
+          line-height: 50px;
+          color: #1c16f7;
+          padding-left: 32px;
+          border-top: 1px solid #dfe1e6;
+          border-right: 1px solid #dfe1e6;
+        }
+      }
+      .linkR {
+        padding: 0 32px;
+      }
+    }
+    .tel {
+      padding: 16px 269px 16px 32px;
+      font-size: 15px;
+      color: #121212;
+      line-height: 24px;
+      border-left: 1px solid #dfe1e6;
+      border-right: 1px solid #dfe1e6;
+      border-bottom: 1px solid #dfe1e6;
+    }
+  }
+  .btn2 {
+    display: block;
+    background: #1c16f7;
+    margin: 40px auto 64px;
+  }
+  // 提示
+  .note {
+    padding: 0 144px;
+    .note1 {
+      font-size: 24px;
+    }
+    .note2 {
+      font-size: 20px;
+      line-height: 1.4;
+      color: #121212;
+    }
+  }
+  // 公司
+  .company {
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+    span {
+      font-size: 20px;
+      color: #121212;
+      margin-right: 40px;
+    }
+    .company1 {
+      height: 64px;
+      margin-right: 40px;
+    }
+  }
+  .num {
+    position: relative;
+    margin: 0 auto;
+    height: 255px;
+    .numimg {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 255px;
+    }
+    .digital {
+      position: relative;
+      text-align: center;
+      padding-top: 100px;
+      font-size: 32px;
+      color: #ffffff;
+      line-height: 38px;
+    }
+  }
+  // 介绍
+  .intr {
+    padding: 0 144px;
+    .intr1 {
+      font-weight: 500;
+      font-size: 32px;
+      color: #121212;
+      line-height: 38px;
+      text-align: center;
+      padding: 60px 0 40px 0;
+    }
+    .intr2,
+    .intr3 {
+      font-size: 15px;
+      color: #121212;
+      line-height: 24px;
+    }
+  }
+
+  .despop {
+    font-size: 15px;
+    color: #121212;
+    .bg {
+      background: #e6e8fb;
+    }
+    .item {
+      justify-content: flex-start;
+      align-items: center;
+      height: 50px;
+      border: 1px solid #dfe1e6;
+      border-top: none;
+      .bitem1 {
+        width: 290px;
+        height: 100%;
+        line-height: 50px;
+        border-right: 1px solid #dfe1e6;
+        padding-left: 32px;
+      }
+      .bitem2 {
+        width: 459px;
+        padding-left: 32px;
+      }
+    }
+    .bdes {
+      padding: 16px 32px;
+      line-height: 18px;
+      border: 1px solid #dfe1e6;
+      border-top: none;
+    }
+  }
+  .ant-modal-close-x {
+    display: none;
+  }
+}
+@media (max-width: 1023px) {
+  $width: 200;
+  html {
+    font-size: 100px;
+  }
+  .mobile {
+    display: block;
+  }
+  .pc {
+    display: none;
+  }
+  // banner
+  .banner {
+    position: relative;
+    height: 880rem / $width;
+    margin: 0 auto;
+    text-align: center;
+
+    .bimg {
+      position: absolute;
+      width: 100%;
+      height: 880rem / $width;
+      transform: translateX(-50%);
+      left: 50%;
+      top: 0;
+    }
+    .bcon {
+      position: relative;
+    }
+    .btit {
+      color: #fff;
+      font-size: 60rem / $width;
+      line-height: 1.2;
+      font-weight: 400;
+      padding-top: 40px;
+    }
+    .btit1 {
+      padding: 30rem / $width;
+      color: #fff;
+      font-size: 30rem / $width;
+      line-height: 1.2;
+      margin-top: 32rem / $width;
+      font-weight: 400;
+    }
+  }
+  // 白色字按钮
+  .wbtn {
+    display: block;
+    width: 300rem / $width;
+    height: 84rem / $width;
+    line-height: 82rem / $width;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 26rem / $width;
+    text-align: center;
+    margin: 0 auto;
+  }
+  // 蓝色字体
+  .bbtn {
+    display: block;
+    width: 300rem / $width;
+    height: 84rem / $width;
+    line-height: 84rem / $width;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50rem / $width;
+    color: #1c16f7;
+    font-size: 26rem / $width;
+    text-align: center;
+    margin: 0 auto;
+  }
+  // 描述
+  .iss {
+    text-align: center;
+    font-size: 40rem / $width;
+    color: #121212;
+    line-height: 1.3;
+    margin-top: 40rem / $width;
+  }
+  .title {
+    text-align: center;
+    font-size: 30rem / $width;
+    color: #121212;
+    line-height: 1.3;
+    padding: 20rem / $width 0 10rem / $width 0;
+  }
+  .s-title {
+    padding: 0 40rem / $width;
+
+    font-size: 26rem / $width;
+    color: #121212;
+    line-height: 1.3;
+  }
+  // 银行信息
+  .idr {
+    padding: 40rem / $width 48rem / $width;
+    font-size: 22rem / $width;
+    color: #b8b8b8;
+    line-height: 41rem / $width;
+
+    .dtit {
+      font-size: 48rem / $width;
+      color: #121212;
+      line-height: 56rem / $width;
+    }
+    .dtit1 {
+      font-size: 26rem / $width;
+      color: #121212;
+      line-height: 44rem / $width;
+      margin-top: 32rem / $width;
+    }
+    .card {
+      padding: 40rem / $width;
+      background: #ffffff;
+      border-radius: 14px;
+      border: 1px solid #e6e8fb;
+      border-radius: 27rem / $width;
+      margin-bottom: 32rem / $width;
+    }
+    .intr {
+      align-items: center;
+      img {
+        height: 54rem / $width;
+      }
+    }
+    .idrL {
+      display: inline-block;
+      width: 102rem / $width;
+      height: 54rem / $width;
+      line-height: 54rem / $width;
+      text-align: center;
+      background: #f1f1f1;
+      border-radius: 27rem / $width;
+    }
+    .rek {
+      margin-top: 46rem / $width;
+      line-height: 41rem / $width;
+      .num {
+        margin-top: 4rem / $width;
+        font-size: 40rem / $width;
+        color: #121212;
+      }
+    }
+    .des {
+      margin-top: 50rem / $width;
+      align-items: center;
+      line-height: 26rem / $width;
+      .btn {
+        width: 188rem / $width;
+        height: 84rem / $width;
+        line-height: 84rem / $width;
+        text-align: center;
+        background: #1c16f7;
+        border-radius: 42rem / $width;
+        font-size: 26rem / $width;
+        color: #fff;
+      }
+    }
+  }
+  // 详细信息
+  .msginfo {
+    padding: 0 48rem / $width 48rem / $width;
+    .mtit {
+      font-size: 30rem / $width;
+      color: #121212;
+      line-height: 35rem / $width;
+      text-align: center;
+      font-weight: normal;
+      margin-bottom: 32rem / $width;
+    }
+    .item1t {
+      padding: 40rem / $width 32rem / $width;
+      font-size: 40rem / $width;
+      color: #121212;
+      &.active {
+        background-color: #e6e8fb;
+      }
+      .icons {
+        display: inline-block;
+        width: 48rem / $width;
+        height: 48rem / $width;
+        line-height: 48rem / $width;
+        text-align: center;
+        background: #ffffff;
+        border-radius: 8rem / $width;
+        border: 2rem / $width solid #eeeeee;
+      }
+    }
+    .mcon {
+      border: 8rem / $width solid #d9d9d9;
+
+      .mconName {
+        display: block;
+        padding: 32rem / $width;
+        font-size: 26rem / $width;
+        color: #1c16f7;
+      }
+      .mtime {
+        margin: 0 32rem / $width 32rem / $width;
+        padding-top: 32rem / $width;
+        font-size: 22rem / $width;
+        color: #121212;
+        border-top: 1px solid #d9d9d9;
+      }
+    }
+  }
+  // 提示
+  .note {
+    padding: 0 48rem / $width;
+    margin-top: 48rem / $width;
+    color: #121212;
+    .note1 {
+      font-size: 30rem / $width;
+    }
+    .note2 {
+      justify-content: flex-start;
+      font-size: 26rem / $width;
+      margin-top: 5px;
+      span {
+        display: inline-block;
+        line-height: 40rem / $width;
+      }
+      p {
+        line-height: 40rem / $width;
+      }
+    }
+  }
+  // 银行介绍
+  .companyName {
+    font-size: 30rem / $width;
+    color: #000000;
+    text-align: center;
+    padding: 80rem / $width 0 0;
+  }
+  .company {
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    .company1 {
+      display: inline-block;
+      height: 98rem / $width;
+      margin-top: 48rem / $width;
+    }
+  }
+  // 数字
+  .num1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin-top: 80rem / $width;
+    height: 544rem / $width;
+    padding: 0 40rem / $width;
+    .nimg {
+      width: 100%;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0;
+      height: 544rem / $width;
+    }
+    .numd {
+      position: relative;
+      font-size: 48rem / $width;
+      color: #ffffff;
+      line-height: 64rem / $width;
+    }
+  }
+  // 介绍
+  .intr {
+    padding: 0 48rem / $width;
+    color: #121212;
+    .intr1 {
+      text-align: center;
+      padding: 80rem / $width 0 28rem / $width;
+      font-size: 40rem / $width;
+      line-height: 47rem / $width;
+    }
+    .intr2,
+    .intr3 {
+      font-size: 26rem / $width;
+      color: #121212;
+      justify-content: flex-start;
+      span {
+        display: inline-block;
+        line-height: 48rem / $width;
+      }
+      p {
+        line-height: 48rem / $width;
+      }
+    }
+    .intr3 {
+      margin-left: 10rem / $width;
+    }
+  }
+  .despop {
+    font-size: 15px;
+    color: #121212;
+    .bg {
+      background: #e6e8fb;
+    }
+    .item {
+      justify-content: flex-start;
+      align-items: center;
+      height: 50px;
+      border: 1px solid #dfe1e6;
+      border-top: none;
+      .bitem1 {
+        width: 290px;
+        height: 100%;
+        line-height: 50px;
+        border-right: 1px solid #dfe1e6;
+        padding-left: 32px;
+      }
+      .bitem2 {
+        width: 459px;
+        padding-left: 32px;
+      }
+    }
+    .bdes {
+      padding: 16px 32px;
+      line-height: 18px;
+      border: 1px solid #dfe1e6;
+      border-top: none;
+    }
+  }
+  .ant-modal-close-x {
+    display: none;
+  }
+}

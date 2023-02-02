@@ -1,0 +1,136 @@
+    // 底部
+    $width: 200;
+
+    .h5footer {
+        padding: 0 0.24rem;
+
+        .store {
+            display: flex;
+            margin-top: 0.37rem;
+            margin-bottom: 0.34rem;
+            justify-content: flex-start;
+            font-size: 15px;
+
+            img {
+                height: 0.4rem;
+                margin-right: 0.24rem;
+            }
+        }
+
+        .logo {
+            width: 100%;
+            margin-bottom: 0.37rem;
+            display: flex;
+            justify-content: flex-start;
+
+            img {
+                height: 0.28rem;
+                margin-right: 0.24rem;
+            }
+        }
+
+        .phone {
+            display: flex;
+            padding: 0 0 116rem/$width 0;
+            font-size: 26rem/$width;
+            color: #121212;
+            line-height: 42rem/$width;
+            justify-content: flex-start;
+
+
+        }
+
+        // 关于我们
+        .about {
+            font-size: 26rem/$width;
+            font-weight: 500;
+            color: #121212;
+            flex-wrap: wrap;
+            padding-bottom: 70rem/$width;
+            border-bottom: 1px solid rgba(18, 18, 18, 0.5);
+
+            .text {
+                width: 50%;
+                position: relative;
+            }
+
+            .texttit {
+                width: 291rem/$width;
+                height: 104rem/$width;
+                line-height: 104rem/$width;
+                border-bottom: 1px solid rgba(18, 18, 18, 0.15);
+            }
+
+            .textitem {
+                display: block;
+                margin-top: 40rem/$width;
+                font-weight: 500;
+
+                .cardword {
+                    color: #828CA0;
+                    display: block;
+                    margin-bottom: 40rem/$width;
+                }
+
+                .cardword:hover {
+                    color: #1c16f7;
+                    cursor: pointer;
+                }
+
+            }
+
+            .other {
+                margin-top: 120rem/$width;
+            }
+        }
+
+        // 声明
+        .declare {
+            font-size: 22rem/$width;
+            color: #828ca0;
+            line-height: 40rem/$width;
+            padding: 36rem/$width 0 58rem/$width 0;
+
+            .legtit {
+                padding-top: 32rem/$width;
+                font-size: 26rem/$width;
+                font-weight: 500;
+                color: #121212;
+            }
+
+            .leg1 {
+                padding: 64rem/$width 0 32rem/$width;
+            }
+        }
+
+        .brandimg {
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            text-align: center;
+
+            .box {
+                width: 33.3%;
+                font-size: 26rem/$width;
+
+                .pic {
+                    height: 60rem/$width;
+                }
+            }
+
+            .left {
+                text-align: left;
+            }
+
+            .right {
+                text-align: right;
+            }
+        }
+
+        .copy {
+            font-size: 22rem/$width;
+            color: #828ca0;
+            line-height: 77rem/$width;
+            padding: 104rem/$width 0 238rem/$width 0;
+        }
+    }

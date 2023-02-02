@@ -1,0 +1,415 @@
+@media (min-width: 1023px) {
+    .h5 {
+        display: none;
+    }
+
+    // banner1
+    .banner1 {
+        text-align: center;
+        height: 320px;
+        background: url('/new-offical/images/product/banner1.png') no-repeat center center;
+
+        .ban1 {
+            padding-top: 94px;
+            color: #ffffff;
+        }
+
+        .btit1 {
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 56px;
+            padding-bottom: 16px;
+        }
+
+        .btit2 {
+            font-size: 18px;
+            line-height: 56px;
+        }
+    }
+
+    // tab
+    .detail {
+        position: relative;
+        width: 391px;
+        padding: 62px 3px 0px;
+
+        .btn {
+            margin: 32px auto 0;
+
+        }
+
+        .recom {
+            position: absolute;
+            font-size: 24px;
+            font-weight: 500;
+            color: #ffffff;
+            line-height: 28px;
+            top: 18px;
+            left: 94px;
+        }
+
+        &.active {
+            background: #1c16f7;
+        }
+
+        .deBox {
+            background: #fff;
+            padding: 46px 24px 32px;
+            box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.12);
+
+            .tabtit {
+                text-align: center;
+            }
+
+            .mini {
+                font-size: 20px;
+                color: #121212;
+                line-height: 23px;
+            }
+
+            .mnum {
+                font-size: 40px;
+                color: #1c16f7;
+                line-height: 47px;
+                margin-top: 46px;
+            }
+
+            .des {
+                font-size: 15px;
+                color: #121212;
+                line-height: 18px;
+                margin: 4px 0 32px 0;
+            }
+
+            .tabbotm {
+                padding: 35px 19px;
+                border-top: 1px solid #dfe1e6;
+                border-bottom: 1px solid #dfe1e6;
+            }
+
+            .info {
+                justify-content: start;
+                font-size: 15px;
+                color: #121212;
+                line-height: 18px;
+                margin-bottom: 24px;
+                align-items: center;
+
+                img {
+                    margin-right: 16px;
+                }
+
+                .lowe {
+                    height: 26px;
+                    margin-left: 16px;
+                }
+            }
+        }
+    }
+
+    // 提醒
+    .warn {
+        display: flex;
+        background: #e9eaed;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        margin-bottom: 62px !important;
+        margin-top: 40px !important;
+
+        img {
+            margin-right: 16px;
+        }
+
+        .tips {
+            color: #1c16f7;
+            border-bottom: 1px solid #1c16f7;
+            line-height: 1;
+        }
+    }
+
+    //更好
+    .better {
+        background: url('/new-offical/images/index/banner.png') center center / 100% 100%;
+        height: 256px;
+        padding: 35px 0 0 49px;
+
+        .btxt1 {
+            align-items: center;
+            justify-content: flex-start;
+            font-size: 40px;
+            font-weight: 500;
+            color: #ffffff;
+            line-height: 47px;
+
+            .low {
+                height: 26px;
+                margin-right: 16px;
+            }
+        }
+
+        .btxt2 {
+            padding: 0 32px 0 0px;
+            font-size: 16px;
+            font-weight: 400;
+            color: #ffffff;
+            line-height: 19px;
+            margin: 17px 0 34px 0;
+        }
+
+        .bbtn {
+            padding: 0 32px 0 32px;
+            height: 50px;
+            text-align: center;
+            background: #e6e8fb;
+            border-radius: 40px;
+            font-size: 15px;
+            font-weight: 500;
+            color: #121212;
+            line-height: 50px;
+        }
+    }
+
+    // 下载
+    .load {
+        margin: 75px 0 64px 0;
+        height: 543px;
+        background: url('/new-offical/images/product/banner2.png') no-repeat center center;
+
+        .down {
+            padding-top: 90px;
+            color: #fff;
+
+            .down1 {
+                width: 450px;
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 38px;
+                color: #fff;
+            }
+
+            .down2 {
+                color: #fff;
+                width: 450px;
+                font-size: 15px;
+                line-height: 24px;
+                margin: 24px 0 32px 0;
+            }
+
+            .down3 {
+                color: #fff;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 18px;
+            }
+        }
+
+        .link {
+            justify-content: start;
+            margin-top: 14px;
+
+            .pic {
+                margin-right: 32px;
+
+                .img1 {
+                    cursor: pointer;
+                    display: block;
+                    margin-bottom: 16px;
+                }
+            }
+
+            .codeCon {
+                height: 125px;
+                height: 125px;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+
+            .code {
+                height: 125px;
+            }
+        }
+    }
+
+    // 流程
+    .flow {
+        .flowtit {
+            font-size: 32px;
+            font-weight: 500;
+            color: #121212;
+            line-height: 38px;
+            margin-bottom: 80px;
+        }
+
+        .flowbox {
+            width: 221px;
+
+            img {
+                height: 64px;
+            }
+        }
+
+        .fitem1 {
+            font-size: 20px;
+            font-weight: 500;
+            color: #000000;
+            line-height: 23px;
+            margin: 16px 20px 24px 0;
+        }
+
+        .fitem2 {
+            font-size: 15px;
+            color: #000000;
+            line-height: 24px;
+        }
+    }
+
+    .tbtn {
+        display: block;
+        margin: 40px auto 64px;
+    }
+
+}
+
+@media (max-width:1023px) {
+    $width: 200;
+
+    .pc {
+        display: none;
+    }
+
+    html {
+        font-size: 100px;
+        margin: 0 auto;
+    }
+
+    // baner1
+    .banner1 {
+        background: url('/new-offical/images/mobileProduct/banner.png') center center / 3.75rem 3.59rem;
+        height: 3.59rem;
+        color: #ffffff;
+        padding: 100rem/$width 100rem/$width 0 48rem/$width;
+        margin-top: 30rem/$width;
+
+        .btip1 {
+            font-size: 80rem/$width;
+            line-height: 96rem/$width;
+        }
+
+        .btip2 {
+            font-size: 30rem/$width;
+            line-height: 54rem/$width;
+            margin-top: 32rem/$width;
+        }
+    }
+
+    .lunbo {
+        margin: 120rem/$width 0 0 0;
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 0.2rem;
+
+        .swiper-item {
+            position: relative;
+            width: 494rem/$width;
+            margin: 0 auto;
+            height: 384rem/$width;
+            padding: 96rem/$width 2px 2px 2px;
+
+            .recom {
+                position: absolute;
+                top: 30rem/$width;
+                left: 114rem/$width;
+                font-size: 32rem/$width;
+                color: #ffffff;
+            }
+
+            .sbox {
+                background: #fff;
+                box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.08);
+                color: #121212;
+                text-align: center;
+                height: 100%;
+                padding-top: 52rem/$width;
+
+                .stit1 {
+                    font-size: 32rem/$width;
+                    line-height: 38rem/$width;
+                }
+
+                .stit2 {
+                    font-size: 64rem/$width;
+                    color: #1c16f7;
+                    line-height: 75rem/$width;
+                    margin: 32rem/$width 0 8rem/$width;
+                }
+
+                .stit3 {
+                    font-size: 26rem/$width;
+                    color: #121212;
+                    line-height: 30rem/$width;
+                }
+            }
+
+            &.high {
+                background: #1c16f7;
+            }
+        }
+
+        .swiper-pagination-horizontal {
+            top: 2rem;
+            bottom: 5rem !important;
+        }
+
+        .swiper-pagination {
+            //     // position: absolute;
+            // top: 2rem;
+            //     // left: 50%;
+            //     // transform: translateX(-50%);
+
+            //     // /deep/span {
+            //     //     margin-right: 16rem/$width;
+            //     // }
+        }
+
+        .lbtn {
+            margin: 0 auto;
+        }
+    }
+
+    // 轮播菜单
+    .tab {
+        width: 654rem/$width;
+        background: #ffffff;
+        margin: 0 auto;
+        box-shadow: 0px 8rem/$width 48rem/$width 0px rgba(0, 0, 0, 0.12);
+        margin-top: 90rem/$width;
+        padding: 54rem/$width 34rem/$width;
+
+        .tabWord {
+            justify-content: flex-start;
+            font-size: 26rem/$width;
+            color: #121212;
+            line-height: 30rem/$width;
+            margin-bottom: 32rem/$width;
+            padding-left: 60rem/$width;
+
+            img {
+                height: 48rem/$width;
+                margin-right: 32rem/$width;
+            }
+
+            .low {
+                height: 26rem/$width;
+                margin-left: 16rem/$width;
+            }
+        }
+
+        .tabBtn {
+            font-size: 30rem/$width;
+            text-align: center;
+            border-top: 1px solid #dfe1e6;
+            padding-top: 64rem/$width;
+        }
+    }
+}

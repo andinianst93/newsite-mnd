@@ -1,0 +1,552 @@
+// 奖励
+.reward {
+  position: relative;
+  height: 588px;
+
+  .rewardL {
+    padding-top: 90px;
+    width: 560px;
+
+    .reTit1 {
+      font-size: 48px;
+      font-weight: 500;
+      color: #000000;
+      line-height: 58px;
+    }
+
+    .reTit2 {
+      font-size: 18px;
+      color: #000000;
+      line-height: 29px;
+      margin: 24px 0 48px 0;
+
+      span {
+        color: #1c16f7;
+      }
+    }
+
+    .reTit3 {
+      display: inline-block;
+      font-size: 15px;
+      color: #000000;
+      line-height: 18px;
+      margin-top: 16px;
+      border-bottom: 1px solid #909090;
+      cursor: pointer;
+    }
+  }
+
+  .rewardR {
+    position: absolute;
+    right: -400px;
+    bottom: 0;
+
+    img {
+      height: 588px;
+    }
+  }
+}
+
+// 数字
+.num {
+  background: url("/new-offical/images/index/num.png") no-repeat center center;
+
+  .nums {
+    height: 100px;
+    align-items: center;
+  }
+
+  .numItem {
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+
+    p {
+      font-size: 20px;
+    }
+
+    .des2 {
+      // /deep/.span {
+      //   font-size: 12px;
+      // }
+    }
+  }
+}
+
+// 行情
+.price {
+  height: 630px;
+
+  .priceL {
+    width: 600px;
+    margin: 46px 52px 0 0;
+
+    .priceLtit {
+      font-size: 32px;
+      font-weight: 500;
+      color: #000000;
+      line-height: 38px;
+    }
+
+    .tab {
+      box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.16);
+      width: 600px;
+      margin-top: 35px;
+      font-size: 16px;
+
+      .tabbox {
+        text-align: center;
+        padding: 0 40px;
+        color: #9095be;
+      }
+
+      a {
+        display: inline-block;
+        padding: 20px 10px;
+      }
+
+      .grag {
+        color: #9095be;
+      }
+
+      .tabactive {
+        color: #1c16f7;
+        border-bottom: 3px solid #1c16f7;
+      }
+
+      .tablist {
+        padding: 0px 32px;
+        height: 64px;
+        align-items: center;
+        border-bottom: 1px solid #dfe1e6;
+        font-size: 15px;
+        color: #595959;
+
+        .names {
+          width: 100px;
+          margin-right: 150px;
+        }
+
+        .nums {
+          text-align: rgiht !important;
+          flex: 1;
+        }
+
+        .green {
+          color: #0ea900;
+        }
+
+        .black {
+          color: #000;
+        }
+
+        .red {
+          color: #ee2d3a;
+        }
+
+        .imgs {
+          text-align: center;
+          width: 125px;
+        }
+      }
+
+      .tabtit {
+        font-size: 13px;
+        background: rgb(230, 232, 251);
+        height: 50px;
+      }
+    }
+  }
+
+  ul {
+    margin-top: 35px;
+  }
+
+  .priceR {
+    margin-top: 224px;
+
+    .priceRtit1 {
+      font-size: 40px;
+      color: #1c16f7;
+      line-height: 38px;
+    }
+
+    .priceRtit2 {
+      font-size: 15px;
+      color: #000000;
+      line-height: 21px;
+      margin: 24px 0 32px 0;
+    }
+  }
+}
+
+//更好
+.better {
+  background: url("/new-offical/images/index/banner.png") center center / 100%
+    100%;
+  height: 256px;
+  padding: 35px 0 0 49px;
+
+  .btxt1 {
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 47px;
+
+    img {
+      vertical-align: middle;
+      height: 30px;
+      margin-right: 14px;
+    }
+  }
+
+  .btxt2 {
+    padding: 0 32px 0 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 19px;
+    margin: 17px 0 34px 0;
+  }
+
+  .bbtn {
+    padding: 0 32px 0 32px;
+    height: 50px;
+    text-align: center;
+    background: #e6e8fb;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #121212;
+    line-height: 50px;
+  }
+}
+
+//选择
+.choose {
+  height: 758px;
+
+  .chooseL {
+    position: relative;
+    width: 600px;
+
+    .money {
+      position: absolute;
+      right: -166px;
+      top: 287px;
+    }
+  }
+
+  .chooseR {
+    flex: 1;
+  }
+
+  .ctit {
+    width: 450px;
+    padding: 72px 0 40px 16px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 38px;
+  }
+
+  .cbody {
+    padding: 72px 0 0 43px;
+    font-size: 15px;
+    height: 500px;
+    background: #1c16f7;
+    color: #ffffff;
+    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.16);
+
+    .cbodytit {
+      font-size: 32px;
+      font-weight: 500;
+      padding-bottom: 24px;
+      color: #1c16f7;
+    }
+
+    .cbodyitem {
+      img {
+        vertical-align: middle;
+        margin-right: 14px;
+      }
+
+      padding-bottom: 20px;
+    }
+  }
+
+  .cbody1 {
+    color: #121212;
+    padding: 40px 0 0 93px;
+    height: 460px;
+    margin-top: 228px;
+    background: #fff;
+  }
+
+  .cbodybtn {
+    margin: 30px 0 0 90px;
+  }
+}
+
+// 平台
+.platform {
+  height: 743px;
+  width: 1920px;
+  margin: 0 auto;
+  background: #020527;
+
+  h2 {
+    color: #fff;
+  }
+
+  .platL {
+    position: relative;
+    color: #fff;
+    z-index: 2;
+
+    .platitem1 {
+      font-size: 48px;
+      font-weight: 500;
+      line-height: 62px;
+      padding-top: 65px;
+    }
+
+    .platitem2 {
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 38px;
+      color: #fff;
+      margin: 72px 0 24px 0;
+    }
+
+    .platitem3 {
+      font-size: 15px;
+      padding-bottom: 12px;
+
+      img {
+        vertical-align: middle;
+        padding-right: 16px;
+      }
+    }
+
+    .plattex1 {
+      font-size: 28px;
+      line-height: 38px;
+      margin: 80px 0 20px 0;
+    }
+
+    .plattex2 {
+      font-size: 15px;
+
+      a {
+        margin-right: 20px;
+
+        img {
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+  .platR {
+    position: absolute;
+    top: 0;
+    right: -360px;
+  }
+}
+
+// 介绍
+.intr {
+  margin-bottom: 39px;
+
+  .intrL {
+    padding: 90px 105px 0 27px;
+  }
+
+  .intrR {
+    margin-top: 70px;
+
+    .intrtit {
+      font-size: 32px;
+      font-weight: 500;
+      color: #000000;
+      line-height: 38px;
+    }
+
+    .intrtitem {
+      align-items: center;
+      margin-top: 48px;
+
+      .intrkey {
+        flex: 1;
+        margin-left: 32px;
+
+        .intrkey1 {
+          font-size: 20px;
+          color: #1c16f7;
+          line-height: 38px;
+        }
+
+        .intrkey2 {
+          font-size: 15px;
+          color: #000000;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+}
+
+// 轮播
+.lunbo {
+  background: #f6f6f8;
+  height: 390px;
+  padding: 60px 0 60px 0px;
+  overflow: hidden;
+}
+
+.lunboL {
+  height: 200px;
+  margin-right: 120px;
+
+  p {
+    width: 167px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 38px;
+  }
+}
+
+.lunboR {
+  width: 1100px;
+  position: relative;
+  // flex: 1;
+}
+
+.swiper-container {
+  // width: 900px; //到时候设置一下宽度
+  // overflow: visible;
+  width: 1200px;
+}
+
+.swiper-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 268px;
+  height: 268px;
+  padding: 22px 24px;
+  background: #ffffff;
+  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.12);
+
+  .item1 {
+    margin-bottom: 32px;
+
+    img {
+      margin-right: 4px;
+    }
+  }
+
+  .item2 {
+    flex: 1;
+    align-self: start;
+    height: 128px;
+    font-size: 13px;
+    color: #000000;
+    line-height: 18px;
+  }
+
+  .item3 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #000000;
+  }
+}
+
+// .swiper-button {
+//     position: relative;
+//     position: absolute;
+//     width: 32px;
+//     height: 32px;
+//     background: #f6f6f8;
+
+//     &:hover {
+//         opacity: 1;
+//     }
+// }
+
+// .swiper-button-prev {
+//     background-image: url('/new-offical/images/index/right.png');
+//     transform: rotateZ(180deg);
+//     left: -182px;
+//     top: 250px;
+// }
+
+// .swiper-button-next {
+//     background-image: url('/new-offical/images/index/right.png');
+//     left: -227px;
+//     top: 250px;
+// }
+// 问题
+// 问题
+.issue {
+  padding: 78px 0;
+}
+
+.issueL {
+  width: 570px;
+  color: #000000;
+
+  .title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 40px;
+  }
+
+  .issueBox {
+    padding: 24px 0;
+    border-bottom: 1px solid #dfe1e6;
+  }
+
+  .issueLItem {
+    padding: 30px 0;
+    border-bottom: 1px solid #dfe1e6;
+  }
+
+  .issuetit {
+    font-size: 20px;
+
+    .icon-jian {
+      display: none;
+    }
+  }
+
+  .active {
+    color: #1c16f7;
+    align-items: center;
+  }
+
+  .issueword {
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 28px;
+    color: #000;
+    display: none;
+  }
+}
+
+.video {
+  width: 600px;
+  height: 337px;
+  background: #ccc;
+  margin-top: 150px;
+
+  .video-js {
+    width: 100%;
+    height: 337px;
+  }
+}

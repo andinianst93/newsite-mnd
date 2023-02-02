@@ -1,0 +1,110 @@
+@media (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+  .pc {
+    display: block;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper .null-page {
+    width: 880px;
+    margin: 80px auto;
+    text-align: center;
+    color: #121212;
+  }
+  .wrapper .null-page img {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+  .wrapper .null-page h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+  .wrapper .null-page .p1 {
+    width: 650px;
+    font-size: 15px;
+    line-height: 1.2;
+    margin: 0 auto;
+  }
+  .wrapper .null-page .btn-group {
+    margin: 64px 0 24px;
+    width: 100%;
+  }
+  .wrapper .null-page .btn-group .btn {
+    width: 238px;
+    height: 50px;
+    background: #1c16f7;
+    border-radius: 26px;
+    margin: 0 auto;
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+  }
+  .wrapper .null-page .btn-cs {
+    font-size: 15px;
+  }
+  .wrapper .null-page .btn-cs a {
+    color: #1c16f7;
+  }
+}
+
+@media (max-width: 1023px) {
+  .mobile {
+    display: block;
+  }
+  .pc {
+    display: none;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper .null-page {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #121212;
+    padding: 0.8rem 0;
+  }
+  .wrapper .null-page img {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+  .wrapper .null-page h1 {
+    font-size: 0.32rem;
+    margin-bottom: 0.32rem;
+    padding: 0 0.48rem;
+    line-height: 1.4;
+  }
+  .wrapper .null-page .p1 {
+    font-size: 0.26rem;
+    line-height: 1.2;
+    margin: 0 auto;
+    padding: 0 0.48rem;
+  }
+  .wrapper .null-page .btn-group {
+    margin: 0.64rem 0 0.24rem;
+    width: 100%;
+  }
+  .wrapper .null-page .btn-group .btn {
+    width: 238px;
+    height: 50px;
+    background: #1c16f7;
+    border-radius: 26px;
+    margin: 0 auto;
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+  }
+  .wrapper .null-page .btn-cs {
+    font-size: 15px;
+  }
+  .wrapper .null-page .btn-cs a {
+    color: #1c16f7;
+  }
+}

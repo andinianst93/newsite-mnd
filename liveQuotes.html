@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" type="text/css" href="/new-offical/style/css/newIndex.css" />
+    <link rel="stylesheet" type="text/css" href="/new-offical/style/css/public.css" />
+    <link rel="stylesheet" type="text/css" href="/css/pcheader.css" />
+  <link rel="stylesheet" href="/css/live-quotes.css">
+  <link rel="stylesheet" href="/new-offical/style/iconfont/fonts/iconfont.css" />
+  <link rel="icon" href="./public/favicon.ico" />
+  <link rel="stylesheet" href="/new-offical/style/css/swiper-bundle.css" />
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        "gtm.start": new Date().getTime(),
+        event: "gtm.js",
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-WSMTM4C");
+  </script>
+  <!-- End Google Tag Manager -->
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "HSB Forex",
+        "url": "http://www.hsb.co.id",
+        "logo": "https://www.hsb.co.id/public/images/logo.png",
+        "sameAs": [
+          "https://www.facebook.com/hsb.investasi",
+          "https://www.instagram.com/hsb.investasi/",
+          "https://twitter.com/hsb_investasi"
+        ]
+      }
+    </script>
+</head>
+
+<body>
+  <script type="text/javascript" src="/public/lp/js/rem.js"></script>
+  <script type="text/javascript">
+    var baseRemVal = remCompute(750, true);
+  </script>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSMTM4C" height="0" width="0"
+      style="display: none; visibility: hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    <!-- header begin -->
+    <@_includePlace path="/public/tags/common/header.html"/> <#-- header.html -->
+    <!-- header end -->
+
+    
+   <!-- banner -->
+  <div class="wid forexBanner">
+    <div class="rewardL">
+      <h1 class="reTit1 pc">Informasi Pasar di HSB</h1>
+      <h2 class="reTit2">
+        Dapatkan akses dan informasi data pasar, bagan, berita forex, dan analisa terupdate serta komprehensif lainnya untuk memaksimalkan strategi trading Anda di HSB Investasi.
+      </h2>
+      <div class="pc">
+        <div class="flex1">
+          <a class="pcbtn pcbtn2" href="https://ui.hsb.co.id/#/register/RVf" target="_blank">Buka Akun Demo</a>
+          <a class="pcbtn mouse" href="https://ui.hsb.co.id/#/register/RVf" target="_blank">Buka Akun Live</a>
+        </div>
+      </div>
+      <div class="mobile btnFlex">
+        <a class="pcbtn mouse" href="https://ui.hsb.co.id/#/register/RVf" target="_blank">Buka Akun Live</a>
+        <a class="pcbtn pcbtn2" href="https://ui.hsb.co.id/#/register/RVf" target="_blank">Buka Akun Demo</a>
+      </div>
+    </div>
+    <div class="rewardR">
+      <img src="https://www.hsb.co.id/images/forex/m-banner.webp" alt="banner" class="mobile"/>
+      <img src="https://www.hsb.co.id/images/forex/banner.webp" alt="banner" class="pc"/>
+    </div>
+  </div>
+
+  <!-- 最受欢迎的外汇主要货币对 -->
+  <div class="foreignExchange">
+    <div class="wid">
+      <div class="title">
+        <h2 class="intrtit font-family-medium">Pilih Produk untuk Melihat Detail Data</h2>
+        <p>Cari tahu data nilai tukar mata uang di pasar forex populer kami, pasangan mata uang utama, pasangan mata uang minor, dan data dari pasar komoditas minyak mentah, logam mulia emas perak, serta data terupdate dari pasar saham dan indeks</p>
+      </div>
+      <div class="tabWart">
+        <div class="tab">
+          <div class="flex tabbox">
+            <!-- tabactive -->
+            <a class="mouse tabactive grag font-family-bold">Forex</a>
+            <a class="mouse grag font-family-bold">Commodities</a>
+            <a class="mouse grag font-family-bold">Index</a>
+            <a class="mouse grag font-family-bold">Shares</a>
+          </div>
+        </div>
+        <div>
+            <!--外汇-->
+          <div class="content on">
+            <div class="flex">
+              <table width="100%" cellpadding="0" cellspacing="0" id="table_price_quote1">
+                <tbody>
+                  <tr class="title1">
+                    <th colspan="6">Forex Rates</th>
+                  </tr>
+                  <tr class="title">
+                    <th class="col-symbol">Market</th>
+                    <th class="col-bid">Beli</th>
+                    <th class="col-ask">Jual</th>
+                    <th></th>
+                    <th class=""><span class="pc">Perubahan (%)</span><span class="mobile">Perubahan<br/> (%)</span></th>
+                    <th></th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!--贵金属-->
+          <div class="content">
+            <table width="100%" cellpadding="0" cellspacing="0" id="table_price_quote2">
+              <tbody>
+                <tr class="title1">
+                    <th colspan="6">Commodities prices</th>
+                  </tr>
+                <tr class="title">
+                  <th class="col-symbol">Market</th>
+                  <th class="col-bid">Beli</th>
+                  <th class="col-ask">Jual</th>
+                  <th></th>
+                  <th class="">Perubahan (%)</th>
+                  <th></th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!--指数-->
+          <div class="content">
+            <table width="100%" cellpadding="0" cellspacing="0" id="table_price_quote3">
+              <tbody>
+                <tr class="title1">
+                    <th colspan="6">Stock index prices</th>
+                  </tr>
+                <tr class="title">
+                  <th class="col-symbol">Market</th>
+                  <th class="col-bid">Beli</th>
+                  <th class="col-ask">Jual</th>
+                  <th></th>
+                  <th class="">Perubahan (%)</th>
+                  <th></th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        <!--原油-->
+        <div class="content">
+            <table width="100%" cellpadding="0" cellspacing="0" id="table_price_quote4">
+                <tbody>
+                <tr class="title1">
+                    <th colspan="6">Shares prices</th>
+                    </tr>
+                <tr class="title">
+                    <th class="col-symbol">Market</th>
+                    <th class="col-bid">Beli</th>
+                    <th class="col-ask">Jual</th>
+                    <th></th>
+                    <th class="">Perubahan (%)</th>
+                    <th></th>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 最低的外汇交易佣金 -->
+  <div class="wid lowTraing">
+    <div class="lowBanner">
+      <div class="bannerBg">
+        <img src="https://www.hsb.co.id/images/forex/lowestCommission.webp" alt="lowestCommission" class="pc">
+        <img src="https://www.hsb.co.id/images/forex/m-lowestCommission.webp" alt="m-lowestCommission" class="mobile">
+      </div>
+      <div class="bannerInfo">
+        <img src="https://www.hsb.co.id/images/forex/lowest.webp" alt="lowest">
+        <div class="pc">
+          <h2>Komisi Trading Forex Terendah</h2>
+          <p>Hanya di HSB Investasi, komisi trading forex online terendah se-Indonesia</p>
+        </div>
+        <div class="mobile">
+          <h2>Komisi Trading Forex Terendah Se-Indonesia</h2>
+        </div>
+        <a class="pcbtn cbodybtn font-family-bold" href="https://ui.hsb.co.id/#/register/RVf" target="_blank">Trading Sekarang!</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 问题 -->
+  <div class="issue wid">
+    <h2 class="center font-family-bold">FAQs - Quote Harga</h2>
+    <div class="issueContent">
+      <div class="issueL">
+        <div class="issueLItem">
+          <div class="flex issuetit">
+            <h3 class="tit">Apa itu Quote Harga Emas, Perak, dan Minyak Mentah?</h3>
+            <span class="iconfont icons icon-jia"></span>
+            <span class="iconfont icons icon-jian"></span>
+          </div>
+          <p class="issueword">
+            Quote Harga merupakan referensi data harga aset Forex, Emas, Perak dan Minyak berdasarkan data aktual di platform HSB Investasi.
+          </p>
+        </div>
+        <div class="issueLItem">
+          <div class="flex issuetit">
+            <h3 class="tit">Aspek Apa Saja yang Ada di Quote Harga?</h3>
+            <span class="iconfont icons icon-jia"></span>
+            <span class="iconfont icons icon-jian"></span>
+          </div>
+          <p class="issueword">
+            Quote Harga berisikan sejumlah angka untuk menunjukkan nilai beli, nilai jual, besarnya komisi, dan persentase perubahan nilai aset trading.   
+          </p>
+        </div>
+        <div class="issueLItem">
+          <div class="flex issuetit">
+            <h3 class="tit">Selain Harga Emas, Perak, dan Minyak Mentah, ada Harga Apalagi di Sini?</h3>
+            <span class="iconfont icons icon-jia"></span>
+            <span class="iconfont icons icon-jian"></span>
+          </div>
+          <p class="issueword">
+            Quote harga juga menunjukkan nilai pasangan mata uang forex, dan nilai indeks saham gabungan dalam periode tertentu.
+          </p>
+        </div>
+        <div class="issueLItem">
+          <div class="flex issuetit">
+            <h3 class="tit">Apakah Update Secara Otomatis?</h3>
+            <span class="iconfont icons icon-jia"></span>
+            <span class="iconfont icons icon-jian"></span>
+          </div>
+          <p class="issueword">
+            Nilai harga dan persentase yang tercantum dalam Quote Harga selalu diupdate secara otomatis sebagai referensi bagi trader. Untuk harga yang lebih aktual, Anda dapat melihatnya di platform aplikasi HSB.      
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--注册-->
+  <div class="register">
+    <div class="wid flex relative registerContent">
+      <div class="regL">
+        <h3 class="title font-family-medium">Registrasi Akun Trading HSB</h3>
+        <div class="regR mobile"><img src="https://www.hsb.co.id/images/homepage/computer.webp" alt="computer" /></div>
+        <ul>
+          <li>
+            <div class="titleTop">
+              <div class="flex flexAlign">
+                <div>
+                  <img src="https://www.hsb.co.id/images/homepage/hook.webp" alt="hook" />
+                </div>
+                <div class="name">Akses Fleksibel ke Pasar Global</div>
+              </div>
+              <div class="icons addIcon"></div>
+              <div class="icons bottomIcon"></div>
+            </div>
+            <div class="contentBottom">
+                Raih peluang trading dengan akses fleksibel ke lebih dari 45 pasar keuangan dunia.
+            </div>
+          </li>
+          <li>
+            <div class="titleTop">
+              <div class="flex flexAlign">
+                <div>
+                  <img src="https://www.hsb.co.id/images/homepage/hook.webp" alt="hook" />
+                </div>
+                <div class="name">Platform Trading All- in-one</div>
+              </div>
+              <div class="icons addIcon"></div>
+              <div class="icons bottomIcon"></div>
+            </div>
+            <div class="contentBottom">
+                Raih peluang trading online dengan aplikasi canggih dan ramah pengguna kapan pun di mana pun
+            </div>
+          </li>
+          <li>
+            <div class="titleTop">
+              <div class="flex flexAlign">
+                <div>
+                  <img src="https://www.hsb.co.id/images/homepage/hook.webp" alt="hook" />
+                </div>
+                <div class="name">Broker Trading Terpercaya</div>
+              </div>
+              <div class="icons addIcon"></div>
+              <div class="icons bottomIcon"></div>
+            </div>
+            <div class="contentBottom">
+                Telah teregulasi BAPPEBTI dengan pengalaman lebih dari 5 tahun sebagai broker trading kepercayaan trader sukses Indonesia
+            </div>
+          </li>
+          <li>
+            <div class="titleTop">
+              <div class="flex flexAlign">
+                <div>
+                  <img src="https://www.hsb.co.id/images/homepage/hook.webp" alt="hook" />
+                </div>
+                <div class="name">Deposit & Withdrawal Kilat</div>
+              </div>
+              <div class="icons addIcon"></div>
+              <div class="icons bottomIcon"></div>
+            </div>
+            <div class="contentBottom">
+                Transaksi deposit & withdrawal kilat hanya dalam hitungan menit dengan akun Segregated Account terhandal
+            </div>
+          </li>
+        </ul>
+        <div class="flex1">
+          <div class="pc">
+            <div class="flex1">
+              <a class="pcbtn pcbtn2" href="https://ui.hsb.co.id/#/register/RVf" target="_blank">Buka Akun Demo</a>
+              <a class="pcbtn mouse" href="https://ui.hsb.co.id/#/register/RVf" target="_blank">Buka Akun Live</a>
+            </div>
+          </div>
+          <div class="mobile">
+            <a class="pcbtn mouse" href="https://ui.hsb.co.id/#/register/RVf" target="_blank">Buka Akun Live</a>
+            <a class="pcbtn pcbtn2" href="https://ui.hsb.co.id/#/register/RVf" target="_blank">Buka Akun Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="regR pc">
+        <img src="https://www.hsb.co.id/images/homepage/computer.webp" alt="computer" />
+      </div>
+    </div>
+  </div>
+
+
+  
+   <!-- footer begin -->
+    <@_includePlace path="/public/tags/common/footer.html"/> <#-- footer.html -->
+    <!-- footer end -->
+
+  <script type="text/javascript" src="/new-offical/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/new-offical/js/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="/js/common.js"></script>
+  <script type="text/javascript" src="/new-offical/js/pricequote2.js"></script>
+  <script>
+    var tradingWaySwiper = new Swiper(".tradingWaySwiper", {
+        // autoplay: {
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // },
+        ovserver:true,
+        observeParents:true,
+        slidesPerView: 1,
+        speed: 500,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination2",
+        },
+    });
+      $(function(){
+        ajaxFn({SymbolCataType:1}).done(function(data){
+            var _type = "type1";
+            $('#table_price_quote1').append(generateHtml(data,_type));
+            quotationConnectW(wsUrl+'&SymbolCataType=1&SymbolId='+codeId[_type].join(','), '');
+        });
+        ajaxFn({SymbolCataType:2}).done(function(data){
+            var _type = "type1";
+            $('#table_price_quote2').append(generateHtml(data,_type));
+            quotationConnectW(wsUrl+'&SymbolCataType=2&SymbolId='+codeId[_type].join(','), '');
+        });
+        ajaxFn({SymbolCataType:3}).done(function(data){
+            var _type = "type1";
+            $('#table_price_quote3').append(generateHtml(data,_type));
+            quotationConnectW(wsUrl+'&SymbolCataType=3&SymbolId='+codeId[_type].join(','), '');
+        });
+        ajaxFn({SymbolCataType:4}).done(function(data){
+            var _type = "type1";
+            $('#table_price_quote4').append(generateHtml(data,_type));
+            quotationConnectW(wsUrl+'&SymbolCataType=4&SymbolId='+codeId[_type].join(','), '');
+        });
+    })
+     
+  </script>
+</body>
+
+</html>

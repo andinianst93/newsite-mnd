@@ -1,0 +1,146 @@
+.h5footer {
+  padding: 0 0.24rem;
+}
+
+.h5footer .store {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.37rem;
+  margin-bottom: 0.34rem;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 15px;
+}
+
+.h5footer .store img {
+  height: 0.4rem;
+  margin-right: 0.24rem;
+}
+
+.h5footer .logo {
+  width: 100%;
+  margin-bottom: 0.37rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.h5footer .logo img {
+  height: 0.28rem;
+  margin-right: 0.24rem;
+}
+
+.h5footer .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 0.58rem 0;
+  font-size: 0.13rem;
+  color: #121212;
+  line-height: 0.21rem;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.h5footer .about {
+  font-size: 0.13rem;
+  font-weight: 500;
+  color: #121212;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgba(18, 18, 18, 0.5);
+}
+
+.h5footer .about .text {
+  width: 50%;
+  position: relative;
+}
+
+.h5footer .about .texttit {
+  width: 1.455rem;
+  height: 0.52rem;
+  line-height: 0.52rem;
+  border-bottom: 1px solid rgba(18, 18, 18, 0.15);
+}
+
+.h5footer .about .textitem {
+  display: block;
+  margin-top: 0.2rem;
+  font-weight: 500;
+}
+
+.h5footer .about .textitem .cardword {
+  color: #828CA0;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.h5footer .about .textitem .cardword:hover {
+  color: #1c16f7;
+  cursor: pointer;
+}
+
+.h5footer .about .other {
+  margin-top: 0.6rem;
+}
+
+.h5footer .declare {
+  font-size: 0.11rem;
+  color: #828ca0;
+  line-height: 0.2rem;
+  padding: 0.18rem 0 0.29rem 0;
+}
+
+.h5footer .declare .legtit {
+  padding-top: 0.16rem;
+  font-size: 0.13rem;
+  font-weight: 500;
+  color: #121212;
+}
+
+.h5footer .declare .leg1 {
+  padding: 0.32rem 0 0.16rem;
+}
+
+.h5footer .brandimg {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+}
+
+.h5footer .brandimg .box {
+  width: 33.3%;
+  font-size: 0.13rem;
+}
+
+.h5footer .brandimg .box .pic {
+  height: 0.3rem;
+}
+
+.h5footer .brandimg .left {
+  text-align: left;
+}
+
+.h5footer .brandimg .right {
+  text-align: right;
+}
+
+.h5footer .copy {
+  font-size: 0.11rem;
+  color: #828ca0;
+  line-height: 0.385rem;
+  padding: 0.52rem 0 1.19rem 0;
+}

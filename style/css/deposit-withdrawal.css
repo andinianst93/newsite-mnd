@@ -1,0 +1,540 @@
+@media (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+  .pc {
+    display: block;
+  }
+  .mouse {
+    cursor: pointer;
+  }
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .wid {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .c-bnt {
+    width: 159px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #1c16f7;
+    border-radius: 40px 40px 40px 40px;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+  }
+  .c-bnt:hover {
+    cursor: pointer;
+  }
+  .banner {
+    background: url("../../images/aboutUs/banner2.png") no-repeat center center/1920px 320px;
+    height: 320px;
+    color: #fff;
+  }
+  .banner .bannerCenter {
+    position: relative;
+  }
+  .banner .bannerCenter .titL {
+    position: absolute;
+    z-index: 2;
+  }
+  .banner .bannerCenter .titL .title {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 16px;
+    padding-top: 80px;
+    line-height: 56px;
+  }
+  .banner .bannerCenter .titL p {
+    font-size: 18px;
+  }
+  .banner .bannerCenter .imgR {
+    position: absolute;
+    top: 0;
+    right: -216px;
+  }
+  .home {
+    padding: 24px 0 67px;
+    font-size: 11px;
+    color: #595959;
+    line-height: 13px;
+  }
+  .lineClass {
+    margin-bottom: 64px;
+  }
+  .lineClass .idr {
+    width: 59px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #f1f1f1;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 13px;
+  }
+  .lineClass .title {
+    font-size: 32px;
+    font-weight: 500;
+    color: #121212;
+    line-height: 38px;
+  }
+  .lineClass .s-title {
+    font-size: 15px;
+    color: #000000;
+    line-height: 22px;
+    margin: 24px 0 64px 0;
+  }
+  .lineClass ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .lineClass ul li {
+    background-color: #fff;
+    width: 368px;
+    height: 238px;
+    -webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+    position: relative;
+    border-radius: 16px;
+  }
+  .lineClass ul li .account {
+    color: #b8b8b8;
+    font-size: 13px;
+    margin-top: 28px;
+  }
+  .lineClass ul li .accountNumber {
+    color: #121212;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .lineClass ul li .bottonItem {
+    margin-top: 20px;
+  }
+  .lineClass ul li .bottonItem .ptHandal {
+    color: #b8b8b8;
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 20px;
+  }
+  .lineClass ul li .bottonItem .bnt {
+    cursor: pointer;
+    width: 110px;
+    height: 50px;
+    line-height: 50px;
+    background: #1c16f7;
+    border-radius: 40px 40px 40px 40px;
+    opacity: 1;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+  }
+  .depositDiv .destit {
+    height: 86px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #e6e8fb;
+    padding-left: 32px;
+    font-size: 32px;
+    color: #121212;
+  }
+  .depositDiv .link {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 15px;
+    color: #121212;
+    border-bottom: 1px solid #dfe1e6;
+    -webkit-box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.12);
+  }
+  .depositDiv .link .linkItemL {
+    padding-left: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 290px;
+    border-top: 1px solid #dfe1e6;
+    border-right: 1px solid #dfe1e6;
+  }
+  .depositDiv .link .linkItemR a {
+    display: block;
+    cursor: pointer;
+    width: 311px;
+    height: 50px;
+    line-height: 50px;
+    color: #1c16f7;
+    padding-left: 32px;
+    border-top: 1px solid #dfe1e6;
+    border-right: 1px solid #dfe1e6;
+  }
+  .depositDiv .link .linkR {
+    padding: 0 32px;
+  }
+  .depositDiv .tips {
+    background-color: #e9eaed;
+    padding: 23px 89px;
+    font-size: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #121212;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .depositDiv .tips .iconGantanhaozhong {
+    width: 20px;
+    height: 20px;
+    margin-right: 18px;
+  }
+  .requireDiv {
+    background: -webkit-gradient(linear, left top, left bottom, from(#030547), color-stop(#02056a), to(#030547));
+    background: -o-linear-gradient(#030547, #02056a, #030547);
+    background: linear-gradient(#030547, #02056a, #030547);
+    color: #fff;
+    font-size: 15px;
+    padding: 42px;
+    margin-bottom: 70px;
+  }
+  .requireDiv h2 {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .requireDiv .texts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 32px;
+  }
+  .requireDiv .texts .numbers {
+    margin-right: 5px;
+    line-height: 32px;
+  }
+  .requireDiv .texts p {
+    line-height: 32px;
+  }
+  .despop {
+    font-size: 15px;
+    color: #121212;
+  }
+  .despop .item {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #dfe1e6;
+  }
+  .despop .item .bitem1 {
+    width: 290px;
+    height: 100%;
+    line-height: 50px;
+    border-right: 1px solid #dfe1e6;
+    padding-left: 32px;
+  }
+  .despop .item .bitem2 {
+    width: 459px;
+    padding-left: 32px;
+  }
+  .despop .bdes {
+    padding: 16px 32px;
+    line-height: 18px;
+  }
+  .ant-modal-close-x {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  html {
+    font-size: 100px;
+  }
+  .mobile {
+    display: block;
+  }
+  .pc {
+    display: none;
+  }
+  .banner {
+    margin-top: 0.22rem;
+    height: 6.05rem;
+    background: #07075d url("../../images/aboutUs/mAboutus/banner4.png") center center/100% 6.05rem;
+    color: #ffffff;
+    padding: 0.36rem 0.24rem 0;
+  }
+  .banner .btit {
+    font-size: 0.4rem;
+    line-height: 0.56rem;
+  }
+  .banner .btit1 {
+    font-size: 0.15rem;
+    line-height: 0.26rem;
+    margin-top: 0.16rem;
+  }
+  .btn {
+    width: 0.94rem;
+    height: 0.42rem;
+    line-height: 0.42rem;
+    background: #1c16f7;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 0.13rem;
+    text-align: center;
+  }
+  .home {
+    padding: 0.12rem 0 0 0.24rem;
+    font-size: 0.11rem;
+    color: #595959;
+    line-height: 0.13rem;
+  }
+  .idr {
+    padding: 0.1rem 0.24rem 0.32rem;
+    font-size: 0.11rem;
+    color: #b8b8b8;
+    line-height: 0.205rem;
+  }
+  .idr .dtit {
+    font-size: 0.24rem;
+    color: #121212;
+    line-height: 0.28rem;
+  }
+  .idr .dtit1 {
+    font-size: 0.13rem;
+    color: #121212;
+    line-height: 0.22rem;
+    margin-top: 0.16rem;
+  }
+  .idr .card {
+    padding: 0.2rem;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0.035rem 0.205rem 0px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 0.035rem 0.205rem 0px rgba(0, 0, 0, 0.12);
+    border-radius: 0.135rem;
+    margin-bottom: 0.16rem;
+  }
+  .idr .intr {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .idr .intr img {
+    height: 0.27rem;
+  }
+  .idr .idrL {
+    display: inline-block;
+    width: 0.51rem;
+    height: 0.27rem;
+    line-height: 0.27rem;
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 0.135rem;
+  }
+  .idr .rek {
+    margin-top: 0.23rem;
+    line-height: 0.205rem;
+  }
+  .idr .rek .num {
+    margin-top: 0.02rem;
+    font-size: 0.2rem;
+    color: #121212;
+  }
+  .idr .des {
+    margin-top: 0.25rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 0.13rem;
+  }
+  .issue {
+    padding: 0 0.24rem;
+    font-size: 0.13rem;
+    color: #121212;
+    line-height: 0.2rem;
+  }
+  .issue .itit {
+    font-size: 0.24rem;
+    line-height: 0.28rem;
+  }
+  .issue .ides {
+    margin: 0.24rem 0;
+  }
+  .issue .itit1 {
+    padding: 0 0.16rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 0.13rem;
+    height: 0.56rem;
+    background: #ffffff;
+    border-bottom: 1px solid #d9d9d9;
+  }
+  .issue .itit1 .titR {
+    width: 0.24rem;
+    height: 0.24rem;
+    line-height: 0.24rem;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 0.04rem;
+    -webkit-box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.08);
+            box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.08);
+  }
+  .issue .des {
+    padding: 0.04rem;
+    background: #d9d9d9;
+  }
+  .issue .des .descont {
+    background: #fff;
+  }
+  .issue .des .descont p {
+    height: 0.54rem;
+    line-height: 0.54rem;
+    color: #1c16f7;
+    font-size: 0.13rem;
+    padding-left: 0.16rem;
+  }
+  .issue .des .descont .time {
+    padding: 0.16rem 0;
+    margin: 0 0.16rem;
+    border-top: 1px solid #d9d9d9;
+    font-size: 0.11rem;
+    color: #121212;
+    line-height: 0.22rem;
+  }
+  .issue .active {
+    background: #e6e8fb;
+  }
+  .issue .active1 {
+    background: #fff;
+  }
+  .intr1 {
+    background: #030545;
+    margin: 0 0.24rem 0.3rem;
+    padding: 0.3rem 0.24rem;
+    font-size: 0.15rem;
+    line-height: 0.32rem;
+    color: #ffffff;
+  }
+  .intr1 .des1 {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .warn {
+    background: #e9eaed;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0.2rem 0.24rem 0.2rem 0.24rem;
+    padding: 0.16rem 0.18rem;
+    font-size: 0.1rem;
+    color: #000000;
+    line-height: 0.16rem;
+  }
+  .warn img {
+    height: 0.24rem;
+    margin-right: 0.12rem;
+  }
+  .warn .tips {
+    color: #1c16f7;
+    border-bottom: 1px solid #1c16f7;
+    line-height: 1;
+  }
+  .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+  }
+  .block {
+    padding: 0.1rem;
+    background-color: #fff;
+    font-size: 0.13rem;
+    color: #121212;
+    width: 3.27rem;
+  }
+  .block .item {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 0.5rem;
+    border-bottom: 1px solid #dfe1e6;
+  }
+  .block .item .bitem1 {
+    width: 1.42rem;
+    height: 100%;
+    line-height: 0.5rem;
+    border-right: 1px solid #dfe1e6;
+    padding-left: 0.16rem;
+  }
+  .block .item .bitem2 {
+    width: 1.85rem;
+    padding-left: 0.16rem;
+  }
+  .block .bdes {
+    padding: 0.16rem;
+  }
+  .despop {
+    font-size: 0.13rem;
+    color: #121212;
+  }
+  .despop .item {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #dfe1e6;
+  }
+  .despop .item .bitem1 {
+    width: 290px;
+    height: 100%;
+    line-height: 50px;
+    border-right: 1px solid #dfe1e6;
+    padding-left: 32px;
+  }
+  .despop .item .bitem2 {
+    width: 459px;
+    padding-left: 32px;
+  }
+  .despop .bdes {
+    padding: 16px 32px;
+    line-height: 18px;
+  }
+}

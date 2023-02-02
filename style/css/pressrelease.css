@@ -1,0 +1,400 @@
+@media (min-width: 1023px) {
+  .banner {
+    width: 1920px;
+    margin: 0 auto;
+    height: 499px;
+    background: url("/new-offical/images/land/rbanner1.png") center center/1920px 499px;
+    color: #ffffff;
+    padding-top: 172px;
+  }
+  .banner .btit {
+    width: 557px;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .banner .btit1 {
+    width: 557px;
+    margin-top: 16px;
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .des {
+    margin-top: 64px !important;
+  }
+  .des span {
+    font-size: 20px;
+  }
+  .des .desL {
+    width: 330px;
+    font-size: 32px;
+    color: #121212;
+    line-height: 44px;
+  }
+  .des .desR {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 15px;
+    color: #121212;
+    line-height: 32px;
+    margin-left: 80px;
+  }
+  .play {
+    margin-top: 54px !important;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.12);
+    padding: 34px 24px;
+  }
+  .play .img {
+    height: 310px;
+  }
+  .play .playR {
+    margin-left: 41px;
+  }
+  .play .ptit {
+    font-size: 32px;
+    color: #121212;
+    line-height: 44px;
+  }
+  .play .ptit1 {
+    font-size: 15px;
+    color: #121212;
+    line-height: 32px;
+    margin: 24px 0 32px 0;
+  }
+  .play .btn {
+    width: 442px;
+    height: 64px;
+    line-height: 64px;
+    background: #e6e8fb;
+    text-align: center;
+  }
+  .play .btn a {
+    font-size: 15px;
+    color: #1c16f7;
+    border-bottom: 1px solid #1c16f7;
+  }
+  .step {
+    margin-top: 45px;
+  }
+  .step .stit {
+    font-size: 15px;
+    color: #121212;
+    line-height: 32px;
+  }
+  .step .stepcon {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    color: #fff;
+  }
+  .step .stepcon .sItem {
+    padding: 20px;
+    width: 387px;
+    height: 175px;
+    background: #1c16f7;
+    margin-top: 20px;
+  }
+  .step .stepcon .snum {
+    background-color: #fff;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #121212;
+    font-size: 20px;
+  }
+  .step .stepcon .stepdes {
+    font-size: 15px;
+    line-height: 32px;
+    margin-top: 15px;
+  }
+  .step .stepcon .sItem1 {
+    width: 590px;
+    height: 200px;
+  }
+  .play1 {
+    height: 334px;
+  }
+  .play1 .img {
+    height: 270px;
+  }
+  .play1 .ptit1 {
+    margin: 0px 0 32px 0;
+  }
+  .condes {
+    margin-top: 50px !important;
+    font-size: 15px;
+    color: #121212;
+    line-height: 32px;
+  }
+  .banner1 {
+    margin: 0 auto;
+    height: 317px;
+    background: url("/new-offical/images/land/rbanner2.png") no-repeat center center/1200px 317px;
+    color: #ffffff;
+    padding-top: 95px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .banner1 .btit {
+    width: 609px;
+    font-size: 44px;
+    color: #ffffff;
+    line-height: 64px;
+    padding-left: 100px;
+  }
+  .ftit {
+    font-size: 32px;
+    color: #121212;
+    line-height: 44px;
+  }
+  .fcon {
+    font-size: 32px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .fItem {
+    width: 45%;
+    margin-top: 25px;
+    height: 160px;
+  }
+  .fItem .fnum {
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    background: #1c16f7;
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.16);
+            box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.16);
+    font-size: 32px;
+    color: #ffffff;
+    margin-right: 24px;
+    margin-top: 8px;
+  }
+  .fItem .fdes {
+    width: 454px;
+    font-size: 15px;
+    color: #121212;
+    line-height: 32px;
+  }
+  .tel {
+    height: 156px;
+    background: #e9eaed;
+    padding: 20px 0 0 70px;
+    margin-top: 40px !important;
+    margin-bottom: 56px !important;
+    font-size: 15px;
+    color: #000000;
+    line-height: 32px;
+  }
+  .tel .tels {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .tel .ptit1 {
+    margin: 10px 0 10px 0;
+  }
+  .tel .telItem {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-right: 68px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .tel .telItem img {
+    height: 32px;
+    margin-right: 16px;
+  }
+  .num {
+    background: url("/new-offical/images/index/num.png") no-repeat center center;
+  }
+  .num .nums {
+    height: 100px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .num .numItem {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+    font-size: 15px;
+  }
+  .num .numItem p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1023px) {
+  html {
+    font-size: 100px;
+  }
+  .pc {
+    display: none;
+  }
+  .title {
+    height: 0.64rem;
+    background: #e6e8fb;
+    padding: 0.12rem;
+    line-height: 0.2rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .title .tit1 {
+    font-size: 0.055rem;
+    color: #121212;
+  }
+  .title .tit2 {
+    color: #1c16f7;
+    border-bottom: 1px solid #1c16f7;
+  }
+  .logo {
+    display: block;
+    padding: 0.14rem 0.24rem 0 0.24rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .logo .logo1 {
+    height: 0.32rem;
+  }
+  .logo .logo2 {
+    height: 0.24rem;
+  }
+  .leftOpenInNav {
+    -webkit-animation: leftIn 0.5s ease;
+            animation: leftIn 0.5s ease;
+  }
+  .leftCloseInNav {
+    -webkit-animation: rightIn 0.5s ease;
+            animation: rightIn 0.5s ease;
+  }
+  .menu {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    font-size: 0.13rem;
+    padding: 0.23rem;
+    z-index: 66;
+    background-color: #fff;
+    display: none;
+  }
+  .menu .close {
+    text-align: right;
+  }
+  .menu .clo {
+    font-size: 0.2rem;
+  }
+  .menu .tabTit {
+    height: 0.2rem;
+    color: #000000;
+    line-height: 0.2rem;
+    margin-top: 0.24rem;
+    margin-bottom: 0.24rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 0.16rem;
+  }
+  .menu .navList {
+    line-height: 0.39rem;
+  }
+  .menu .navList .cardword {
+    display: block;
+    cursor: pointer;
+    font-size: 0.13rem;
+    color: #000000;
+    line-height: 0.39rem;
+  }
+  .menu .navList .active {
+    color: #1c16f7;
+  }
+  .menu .navList .Item {
+    display: none;
+    -webkit-animation: leftIn 0.5s ease;
+            animation: leftIn 0.5s ease;
+  }
+  .menu .navList .active {
+    display: block;
+    -webkit-animation: topIn 0.5s ease;
+            animation: topIn 0.5s ease;
+  }
+  @-webkit-keyframes topIn {
+    from {
+      -webkit-transform: translateY(20px);
+              transform: translateY(20px);
+    }
+  }
+  @keyframes topIn {
+    from {
+      -webkit-transform: translateY(20px);
+              transform: translateY(20px);
+    }
+  }
+  @-webkit-keyframes leftIn {
+    from {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  @keyframes leftIn {
+    from {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  @-webkit-keyframes rightIn {
+    from {
+      -webkit-transform: translateX(-200px);
+              transform: translateX(-200px);
+    }
+  }
+  @keyframes rightIn {
+    from {
+      -webkit-transform: translateX(-200px);
+              transform: translateX(-200px);
+    }
+  }
+  .menu .mbtns {
+    padding: 0.26rem;
+    margin: 0.26rem 0;
+    border-top: 1px solid #dfe1e6;
+    border-bottom: 1px solid #dfe1e6;
+    text-align: center;
+  }
+  .menu .mbtns .mbtn {
+    display: inline-block;
+    width: 2.4rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    border-radius: 0.4rem;
+    font-size: 0.15rem;
+    color: #ffffff;
+  }
+  .menu .mbtns .mbtn1 {
+    background: #1c16f7;
+    color: #fff;
+    margin-bottom: 0.16rem;
+  }
+  .menu .mbtns .mbtn2 {
+    background: #e6e8fb;
+    color: #121212;
+  }
+  .menu .other {
+    display: block;
+    font-size: 0.13rem;
+    color: #121212;
+    line-height: 0.39rem;
+  }
+}
