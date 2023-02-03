@@ -50,7 +50,7 @@ After:  <li>
             <div class="numName alignR">Spreads<br/> mulai dari</div>
             <div class="numVal"><span>0,14</span><span class="pip">/pip</span></div>
           </li>
-reason: I confirmed it with Hendi (BD), he said that spreads is 0.14.
+reason: I confirmed it with Hendi (BD), he said that spreads is 0,14.
 
 ========
 
