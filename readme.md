@@ -1,66 +1,55 @@
-index.html (homepage)
+images: 
 
-========
-Heading 1
+ <img src="https://www.hsb.co.id/images/homepage/broker-forex-terpercaya-indonesia.webp" alt="broker forex terpercaya indonesia" />
 
-before: <h1 class="reTit1">Trading Forex, Saham, Minyak & Emas di HSB</h1>
-after: <h1 class="reTit1">Trading Forex, Saham, Minyak & Emas</h1>
-reasons: redundant because HSB already in the logo.
+  <div class="rewardImg"><img src="https://www.hsb.co.id/images/homepage/broker-forex-terpercaya-indonesia-m.webp" alt="broker forex terpercaya Indonesia"></div>
 
-========
+  <img src="https://www.hsb.co.id/images/homepage/trading-forex-online.webp" alt="trading forex online" class="priceBg"/>
 
-Button for mobile and desktop (I haven't changed it) 
-before:  <div class="pc">
-          <div class="flex1">
-            <a
-              class="pcbtn pcbtn2"
-              href="https://ui.hsb.co.id/#/register/RVf"
-              target="_blank"
-              >Buka Akun Demo</a
-            >
-            <a
-              class="pcbtn mouse"
-              href="https://ui.hsb.co.id/#/register/RVf"
-              target="_blank"
-              >Buka Akun Live</a
-            >
-          </div>
-        </div>
-after: <div>
-    <div class="pc">
-        <a href='https://ui.hsb.co.id/#/register/RVf' class='pcbtn pcbtn2'> 
-            <button type="button">Buka Akun Demo</button>
-        </a>
-        <a href='https://ui.hsb.co.id/#/register/RVf'  class="pcbtn mouse">
-            <button type="button">Buka Akun Live</button>
-        </a>
-    </div>
-</div>
-example: https://prnt.sc/vnfpoTah7FQ5
-reasons: Since it is a button it should be <button>. Also, the padding y inside the button could you make it center. Like this: https://prnt.sc/vnfpoTah7FQ5
+  <img src="https://www.hsb.co.id/images/homepage/trading-futures.webp" alt="trading futures" class="priceBg"/>
 
-========
-Spread
+  <img src="https://www.hsb.co.id/images/homepage/trading-indeks.webp" alt="trading indeks" class="priceBg"/>
+                        <img src="https://www.hsb.co.id/images/homepage/trading-saham-amerika.webp" alt="trading saham amerika" class="priceBg"/>
 
-Before: <li>
-            <div class="numName alignR">Spreads<br/> mulai dari</div>
-            <div class="numVal"><span>0,5</span><span class="pip">/pip</span></div>
-          </li>
-After:  <li>
-            <div class="numName alignR">Spreads<br/> mulai dari</div>
-            <div class="numVal"><span>0,14</span><span class="pip">/pip</span></div>
-          </li>
-reason: I confirmed it with Hendi (BD), he said that spreads is 0,14.
 
-========
 
-More about
+                        <img src="https://www.hsb.co.id/images/homepage/trading-forex-online-mobile.webp" alt="trading forex" class="priceBg"/>
+                        <img src="https://www.hsb.co.id/images/homepage/trading-futures-m.webp" alt="trading futures" class="priceBg"/>
+                        <img src="https://www.hsb.co.id/images/homepage/trading-indeks-m.webp" alt="trading indeks" class="priceBg"/>
+                        <img src="https://www.hsb.co.id/images/homepage/trading-saham-amerika-m.webp" alt="trading saham amerika" class="priceBg"/>
+ <img
+              class="money pc"
+              src="https://www.hsb.co.id/images/homepage/belajar-trading-forex.webp"
+              alt="belajar trading forex"
+            />
 
-Before: <a href="" class="more">More about Forex</a> /// including in Komoditas, Indeks, and Saham
+             <img
+                    class="money"
+                    src="https://www.hsb.co.id/images/homepage/promo-hsb.webp"
+                    alt="promo hsb"
+                  />
 
-After:  <a href="" class="more">More about Forex</a>
-        <a href="" class="more">More about Komoditas</a>
-        <a href="" class="more">More about Indeks</a>
-        <a href="" class="more">More about Saham</a>
-    
+                   <img
+                      class="money"
+                      src="https://www.hsb.co.id/images/homepage/promo-hsb-m.webp"
+                      alt="promo hsb mobile"
+                    />
 
+                     <img
+                        src="https://www.hsb.co.id/images/homepage/hadiah-bonus-hsb.webp"
+                        alt="hadiah bonus hsb"
+                      />
+
+                       <div class="swBg pc"><img
+                    src="https://www.hsb.co.id/images/homepage/bonus-hsb.webp"
+                    alt="bonus hsb"
+                  /></div>
+
+                   <div class="swBg mobile"><img
+                    src="https://www.hsb.co.id/images/homepage/bonus-hsb-m.webp"
+                    alt="bonus hsb"
+                  /></div>
+
+forex.html
+
+         <div class="name"><a href="https://www.hsb.co.id/platforms/aplikasi-trading">HSB Mobile Apps</a></div>
