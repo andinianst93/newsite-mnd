@@ -7,12 +7,10 @@
   text-align: left;
   font-size: 11px;
 }
-
 .htip .htips {
   line-height: 29px;
   text-align: center;
 }
-
 .htip a {
   color: #1c16f7;
   border-bottom: 1px solid #1c16f7;
@@ -39,18 +37,8 @@
     border-bottom: 1px solid #1c16f7;
   }
   .advertise {
-    background-image: -o-linear-gradient(
-      281deg,
-      #040649,
-      #040649 70%,
-      #1c16f7 100%
-    );
-    background-image: linear-gradient(
-      169deg,
-      #040649,
-      #040649 70%,
-      #1c16f7 100%
-    );
+    background-image: -o-linear-gradient(281deg, #040649, #040649 70%, #1c16f7 100%);
+    background-image: linear-gradient(169deg, #040649, #040649 70%, #1c16f7 100%);
     height: 1.2rem;
   }
   .advertise .advertiseInfo {
@@ -58,11 +46,11 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .advertise .advertiseInfo .close {
     background-color: #232356;
@@ -75,10 +63,8 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-top: -0.15rem;
-    /* 高度的一半 */
-    margin-left: -0.15rem;
-    /* 宽度的一半 */
+    margin-top: -0.15rem; /* 高度的一半 */
+    margin-left: -0.15rem; /* 宽度的一半 */
   }
   .advertise .advertiseInfo .logoInfo {
     color: #fff;
@@ -154,8 +140,8 @@
     margin-top: 0.24rem;
     margin-bottom: 0.24rem;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 0.26rem;
     padding: 0 0.48rem;
   }
@@ -187,47 +173,47 @@
   .menu .menuWart .navList .Item {
     display: none;
     -webkit-animation: leftIn 0.5s ease;
-    animation: leftIn 0.5s ease;
+            animation: leftIn 0.5s ease;
   }
   .menu .menuWart .navList .active {
     display: block;
     -webkit-animation: topIn 0.5s ease;
-    animation: topIn 0.5s ease;
+            animation: topIn 0.5s ease;
   }
   @-webkit-keyframes topIn {
     from {
       -webkit-transform: translateY(20px);
-      transform: translateY(20px);
+              transform: translateY(20px);
     }
   }
   @keyframes topIn {
     from {
       -webkit-transform: translateY(20px);
-      transform: translateY(20px);
+              transform: translateY(20px);
     }
   }
   @-webkit-keyframes leftIn {
     from {
       -webkit-transform: translateX(100px);
-      transform: translateX(100px);
+              transform: translateX(100px);
     }
   }
   @keyframes leftIn {
     from {
       -webkit-transform: translateX(100px);
-      transform: translateX(100px);
+              transform: translateX(100px);
     }
   }
   @-webkit-keyframes rightIn {
     from {
       -webkit-transform: translateX(-200px);
-      transform: translateX(-200px);
+              transform: translateX(-200px);
     }
   }
   @keyframes rightIn {
     from {
       -webkit-transform: translateX(-200px);
-      transform: translateX(-200px);
+              transform: translateX(-200px);
     }
   }
   .menu .mbtns {
@@ -251,8 +237,8 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 0.32rem;
   }
   .menu .navBtn .mbtn {
@@ -293,6 +279,93 @@
   .menuSty img {
     vertical-align: middle;
     margin-left: 0.24rem;
+  }
+  .register {
+    background-color: #0a0860;
+    color: #fff;
+  }
+  .register .registerContent {
+    display: inline;
+  }
+  .register .registerContent .regL {
+    padding: 0.64rem;
+  }
+  .register .registerContent .regL .title {
+    font-size: 0.4rem;
+    text-align: center;
+    font-weight: 500;
+  }
+  .register .registerContent .regL ul {
+    margin-top: 0.64rem;
+  }
+  .register .registerContent .regL ul li {
+    background-color: #fff;
+    border-radius: 0.12rem;
+    padding: 0.1rem 0.32rem;
+    margin-bottom: 0.32rem;
+  }
+  .register .registerContent .regL ul li .titleTop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .register .registerContent .regL ul li .titleTop .flexAlign {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .register .registerContent .regL ul li .titleTop .name {
+    font-weight: bold;
+    font-size: 0.26rem;
+    color: #121212;
+    margin-left: 0.24rem;
+  }
+  .register .registerContent .regL ul li .titleTop .icons {
+    width: 0.32rem;
+    height: 0.32rem;
+  }
+  .register .registerContent .regL ul li .titleTop .addIcon {
+    background: url("https://www.hsb.co.id/images/homepage/topIcon.webp");
+    background-size: contain;
+    display: none;
+  }
+  .register .registerContent .regL ul li .titleTop .bottomIcon {
+    background: url("https://www.hsb.co.id/images/homepage/bottomIcon.webp");
+    background-size: contain;
+  }
+  .register .registerContent .regL ul li .contentBottom {
+    color: #121212;
+    font-size: 0.26rem;
+    margin-top: 0.16rem;
+    line-height: 0.44rem;
+    display: none;
+    margin-bottom: 0.24rem;
+  }
+  .register .registerContent .regL .pcbtn {
+    width: 3.58rem;
+    margin-bottom: 0.34rem;
+    font-size: 0.26rem;
+    margin: 0 auto;
+    margin-top: 0.56rem;
+  }
+  .register .registerContent .regL .pcbtn2 {
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 0.34rem;
+  }
+  .register .registerContent .regL .flex1 {
+    display: inline;
+    margin: 0 auto;
+  }
+  .register .registerContent .regR img {
+    width: 100%;
+    margin-top: 0.64rem;
   }
   .footer {
     padding: 0.48rem;
@@ -336,8 +409,8 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     border-bottom: 1px solid #d9d9d9;
     padding-bottom: 0.18rem;
   }
@@ -346,13 +419,13 @@
   }
   .footer .aboutL .text {
     font-size: 0.26rem;
-    color: #828ca0;
+    color: #ffffff;
     line-height: 0.64rem;
   }
   .footer .aboutL .pic {
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .footer .aboutL .pic .logo {
     height: 40px;
@@ -383,10 +456,10 @@
   }
   .footer .aboutR {
     -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     border-bottom: 1px solid #d9d9d9;
     padding-bottom: 0.18rem;
   }
@@ -407,12 +480,12 @@
     margin-top: 20px;
     font-size: 13px;
     font-weight: 500;
-    color: #828ca0;
+    color: #ffffff;
   }
   .footer .aboutR .textitem .cardword {
     display: block;
     margin-bottom: 20px;
-    color: #828ca0;
+    color: #ffffff;
   }
   .footer .aboutR .textitem .cardword:hover {
     cursor: pointer;
@@ -425,13 +498,13 @@
   .footer .declare {
     padding: 30px 0 31px;
     font-size: 11px;
-    color: #828ca0;
+    color: #ffffff;
     line-height: 22px;
   }
   .footer .declare .leg {
     -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+        -ms-flex: 1;
+            flex: 1;
   }
   .footer .declare .deTit {
     padding: 0.1rem 0 0.48rem 0;
@@ -441,7 +514,7 @@
   .footer .declare .legtit {
     font-size: 0.26rem;
     font-weight: 600;
-    color: #121212;
+    color: #ffffff;
     margin-bottom: 0.32rem;
     font-weight: bold;
   }
@@ -471,10 +544,10 @@
     width: 530px;
     margin-top: 40px;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
   .footer .declare .debodyR .brandimg img {
     display: inline-block;
@@ -490,31 +563,27 @@
     line-height: 0.44rem;
   }
 }
-
 .partner {
   height: 48px;
   line-height: 48px;
   border-bottom: 1px solid #dfe1e6;
   color: #121212;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-
 .partner .pitem2 {
   padding-left: 50px;
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
-
 .partner .pitem3 {
   cursor: pointer;
   font-size: 13px;
 }
 
 .sticky {
-  position: -webkit-sticky;
   position: sticky;
   z-index: 10;
   top: 0;
@@ -523,8 +592,8 @@
 
 .nav {
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   line-height: 40px;
   font-size: 15px;
   padding-bottom: 30px;
@@ -533,28 +602,23 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-
 .nav .pic {
   display: block;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 152px;
 }
-
 .nav .pic a {
   position: relative;
   font-size: 0;
 }
-
 .nav .pic a span {
   position: absolute;
 }
-
 .nav .pic .logo {
   height: 40px;
 }
-
 .nav .pic .line {
   display: inline-block;
   width: 1px;
@@ -562,52 +626,46 @@
   background: #aeaeae;
   margin: 0 22px;
 }
-
 .nav .navs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
-
 .nav .navs .navItem {
   position: relative;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 15px;
   color: #121212;
   margin-right: 40px;
 }
-
 .nav .navs .navItem > span {
   cursor: pointer;
 }
-
 .nav .navs .navItem span::after {
   font-family: FontAwesome;
   font-weight: 300;
   display: inline-block;
   content: "";
-  background: url("https://www.hsb.co.id/images/homepage/top.webp") no-repeat
-    center center;
+  background: url("/new-offical/images/index/top.png") no-repeat center center;
   width: 12px;
   height: 12px;
   margin-left: 8px;
 }
-
 .nav .navs .navItem .cardItem {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 2;
   background: #ffffff;
   -webkit-box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.16);
-  box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.16);
   border-radius: 6px 6px 6px 6px;
   top: 30px;
   display: none;
@@ -617,7 +675,6 @@
   transition: opacity 0.5s;
   -webkit-transition: opacity 0.5s;
 }
-
 .nav .navs .navItem .cardItem::before {
   content: "";
   position: relative;
@@ -625,18 +682,16 @@
   left: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 0;
   height: 0;
   border: 10px solid #fff;
   border-color: transparent transparent #fff transparent;
 }
-
 .nav .navs .navItem .cardItem .cardBox {
   width: 230px;
 }
-
 .nav .navs .navItem .cardItem .cardBox .cardtit {
   font-size: 15px;
   font-weight: 500;
@@ -646,42 +701,35 @@
   border-bottom: 1px solid #ccc;
   padding-left: 15px;
 }
-
 .nav .navs .navItem .cardItem .cardBox .cardword {
   display: block;
   cursor: pointer;
   font-size: 15px;
-  color: #000000;
+  color: #ffffff;
   line-height: 50px;
   padding: 0 15px;
 }
-
 .nav .navs .navItem .cardItem .cardBox .cardword:hover {
   color: #1c16f7;
   background-color: #eeeeee;
   padding: 0 15px;
   border-radius: 4px;
 }
-
 .nav .navs .navItem .cardItem .cardBox .active {
   color: #1c16f7;
 }
-
 .nav .navs .navItem .cardItem .cardL {
   padding: 0px 0 20px 20px;
 }
-
 .nav .navs .navItem .cardItem .cardL1 {
   padding: 15px 0 0 70px;
 }
-
 .nav .navs .navItem .cardItem .cardR {
   height: 377px;
   width: 325px;
   background: #f6f6f8;
   padding: 30px 30px 0;
 }
-
 .nav .navs .navItem .cardItem .cardR .ctit {
   font-size: 20px;
   font-weight: 500;
@@ -689,47 +737,39 @@
   line-height: 30px;
   text-align: center;
 }
-
 .nav .navs .navItem .cardItem .cardR .video1 {
   width: 168px;
   margin: 30px auto 30px;
   width: 264px;
   padding-left: 40px;
 }
-
 .nav .navs .navItem .cardItem .cardR .video1 img {
   height: 168px;
 }
-
 .nav .navs .navItem .cardItem .cardR .store .pic {
   cursor: pointer;
   height: 40px;
   margin-right: 16px;
 }
-
 .nav .navs .navItem .cardItem1 {
   height: 168px;
 }
-
 .nav .navItem:hover > .cardItem {
   display: block;
   opacity: 1;
 }
-
 .nav .navItem span:hover:after {
   -ms-transform: rotate(180deg);
-  transform: rotateZ(180deg);
+      transform: rotateZ(180deg);
   -webkit-transform: rotateZ(180deg);
   -moz-transform: rotateZ(180deg);
 }
-
 .nav .navItem span:hover:after {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
 }
-
 .nav .navbtn {
   display: block;
   height: 32px;
@@ -740,20 +780,17 @@
   cursor: pointer;
   font-size: 13px;
 }
-
 .nav .navbtn1 {
   width: 68px;
   color: #1c16f7;
   border: 1px solid #1c16f7;
 }
-
 .nav .navbtn2 {
   width: 158px;
   background: #1c16f7;
   color: #fff;
   margin-left: 16px;
 }
-
 .nav .navbtn3 {
   width: 209px;
   background: #1c16f7;
@@ -762,7 +799,6 @@
   border-radius: 40px;
   margin-top: -20px;
 }
-
 .nav .down {
   color: #1c16f7;
   font-size: 15px;
@@ -784,6 +820,74 @@
 }
 
 @media (min-width: 1024px) {
+  .register {
+    background-color: #0a0860;
+    color: #fff;
+    padding-top: 64px;
+  }
+  .register .regL .title {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .register .regL ul {
+    margin-top: 40px;
+  }
+  .register .regL ul li {
+    width: 488px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+  }
+  .register .regL ul li .titleTop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .register .regL ul li .titleTop .name {
+    font-weight: bold;
+    font-size: 15px;
+    color: #121212;
+    line-height: 32px;
+    margin-left: 12px;
+  }
+  .register .regL ul li .titleTop .icons {
+    margin-top: 5px;
+    width: 24px;
+    height: 24px;
+  }
+  .register .regL ul li .titleTop .addIcon {
+    background: url("https://www.hsb.co.id/images/homepage/topIcon.webp");
+    display: none;
+  }
+  .register .regL ul li .titleTop .bottomIcon {
+    background: url("https://www.hsb.co.id/images/homepage/bottomIcon.webp");
+  }
+  .register .regL ul li .contentBottom {
+    color: #121212;
+    font-size: 15px;
+    margin-top: 16px;
+    line-height: 22px;
+    display: none;
+  }
+  .register .regL .pcbtn {
+    width: 196px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  .register .regL .pcbtn2 {
+    border: 1px solid #fff;
+    color: #fff;
+    margin-right: 20px;
+  }
+  .register .regR {
+    position: absolute;
+    right: -63px;
+    bottom: -3px;
+  }
   .footer .about {
     padding: 32px 0 50px 0;
     border-bottom: 1px solid #d9d9d9;
@@ -816,13 +920,13 @@
   }
   .footer .aboutL .text {
     font-size: 13px;
-    color: #828ca0;
+    color: #ffffff;
     line-height: 38px;
   }
   .footer .aboutL .pic {
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .footer .aboutL .pic .logo {
     height: 40px;
@@ -843,8 +947,8 @@
   }
   .footer .aboutR {
     -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+        -ms-flex: 1;
+            flex: 1;
   }
   .footer .aboutR .text {
     margin-right: 32px;
@@ -863,12 +967,12 @@
     margin-top: 20px;
     font-size: 13px;
     font-weight: 500;
-    color: #828ca0;
+    color: #ffffff;
   }
   .footer .aboutR .textitem .cardword {
     display: block;
     margin-bottom: 20px;
-    color: #828ca0;
+    color: #ffffff;
   }
   .footer .aboutR .textitem .cardword:hover {
     cursor: pointer;
@@ -881,14 +985,14 @@
   .footer .declare {
     padding: 30px 0 31px;
     font-size: 11px;
-    color: #828ca0;
+    color: #ffffff;
     line-height: 22px;
   }
   .footer .declare .leg {
     margin-right: 30px;
     -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+        -ms-flex: 1;
+            flex: 1;
   }
   .footer .declare .deTit {
     padding: 10px 0 40px 0;
@@ -897,7 +1001,7 @@
   .footer .declare .legtit {
     font-size: 13px;
     font-weight: 500;
-    color: #828ca0;
+    color: #ffffff;
     margin-bottom: 14px;
     font-weight: bold;
   }
@@ -923,10 +1027,10 @@
     width: 530px;
     margin-top: 40px;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
   .footer .declare .debodyR .brandimg img {
     display: inline-block;

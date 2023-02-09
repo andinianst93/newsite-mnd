@@ -6,7 +6,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 /* 中等 */
 @font-face {
   font-family: StolzlRegular;
@@ -14,7 +13,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 /* 粗 */
 @font-face {
   font-family: StolzlMedium;
@@ -22,7 +20,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -33,17 +30,17 @@
 
 /* // 正常  */
 .font-family-regular {
-  font-family: StolzlBook, PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, WenQuanYi Micro Hei, Helvetica, Arial, monospace, sans-serif;
+  font-family: StolzlBook, PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, WenQuanYi Micro Hei, Helvetica, Arial, monospace, sans-serif;
 }
 
 /* // 中等 */
 .font-family-medium {
-  font-family: StolzlRegular, PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, WenQuanYi Micro Hei, Helvetica, Arial, monospace, sans-serif;
+  font-family: StolzlRegular, PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, WenQuanYi Micro Hei, Helvetica, Arial, monospace, sans-serif;
 }
 
 /* // 加粗 */
 .font-family-bold {
-  font-family: StolzlMedium, PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, WenQuanYi Micro Hei, stolzl, Helvetica, Arial, monospace, sans-serif;
+  font-family: StolzlMedium, PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, WenQuanYi Micro Hei, stolzl, Helvetica, Arial, monospace, sans-serif;
 }
 
 .flex {
@@ -61,6 +58,10 @@
   display: flex;
 }
 
+.pd0 {
+  padding: 0;
+}
+
 .pd20 {
   padding: 20px;
 }
@@ -72,6 +73,10 @@
 .wid {
   width: 1200px;
   margin: 0 auto;
+}
+
+.educateWid {
+  width: 1200px;
 }
 
 .colorRed {
@@ -86,6 +91,14 @@
   color: #888888;
 }
 
+.colorWhite {
+  color: #ffffff;
+}
+
+.colorBlack {
+  color: #121212;
+}
+
 .imgMiddle {
   vertical-align: middle;
 }
@@ -95,8 +108,12 @@ a {
   text-decoration: none;
   color: #121212;
 }
+a:hover {
+  text-decoration: underline;
+}
 
-ul {
+ul,
+ol {
   list-style-type: none;
   padding: 0;
 }
@@ -107,6 +124,27 @@ input {
   border: none;
 }
 
+.comBtn {
+  width: 100%;
+  height: 100%;
+  background: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  /*   &:hover{
+    transform: scale(1.1);
+  } */
+}
+.comBtn.blue {
+  color: #1c16f7;
+}
+
+@media (max-width: 1023px) {
+  .comBtn {
+    font-size: 0.26rem;
+  }
+}
 .mouse {
   cursor: pointer;
 }
@@ -138,7 +176,7 @@ body {
   /*IE10*/
   /*早期浏览器*/
   user-select: none;
-  font-family: StolzlRegular, PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, WenQuanYi Micro Hei, Helvetica, Arial, monospace, sans-serif !important;
+  font-family: StolzlRegular, PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, WenQuanYi Micro Hei, Helvetica, Arial, monospace, sans-serif !important;
 }
 
 .pcbtn {
@@ -175,6 +213,15 @@ body {
   .wid {
     width: auto;
   }
+  .educateWid {
+    width: auto;
+  }
+  .pd48 {
+    padding: 0.48rem;
+  }
+  .pd35 {
+    padding: 0.35rem;
+  }
   .pcbtn {
     cursor: pointer;
     display: block;
@@ -197,7 +244,6 @@ body {
     background-color: transparent;
   }
 }
-
 /*弹窗*/
 .jconfirm.jconfirm-white .jconfirm-bg,
 .jconfirm.jconfirm-light .jconfirm-bg {
