@@ -31,40 +31,29 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@hsb_investasi" />
 
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/new-offical/style/css/newIndex.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/new-offical/style/css/public.css"
-    />
+    <link rel="stylesheet" type="text/css" href="/new-offical/style/css/newIndex.css" />
+    <link rel="stylesheet" type="text/css" href="/css/public.css" />
     <link rel="stylesheet" type="text/css" href="/css/pcheader.css" />
-    <link rel="stylesheet" href="/new-offical/style/css/forex.css" />
-    <link
-      rel="stylesheet"
-      href="/new-offical/style/iconfont/fonts/iconfont.css"
-    />
+    <link rel="stylesheet" href="/new-offical/style/css/forex.css">
+    <link rel="stylesheet" href="/new-offical/style/iconfont/fonts/iconfont.css" />
     <link rel="icon" href="./public/favicon.ico" />
     <link rel="stylesheet" href="/new-offical/style/css/swiper-bundle.css" />
 
     <!-- Google Tag Manager -->
     <script>
-      ;(function (w, d, s, l, i) {
-        w[l] = w[l] || []
-        w[l].push({
-          'gtm.start': new Date().getTime(),
-          event: 'gtm.js',
-        })
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : ''
-        j.async = true
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
-        f.parentNode.insertBefore(j, f)
-      })(window, document, 'script', 'dataLayer', 'GTM-WSMTM4C')
+     (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        "gtm.start": new Date().getTime(),
+        event: "gtm.js",
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-WSMTM4C");
     </script>
     <!-- End Google Tag Manager -->
     <script type="application/ld+json">
@@ -168,21 +157,16 @@
   <body>
     <script type="text/javascript" src="/public/lp/js/rem.js"></script>
     <script type="text/javascript">
-      var baseRemVal = remCompute(750, true)
+    var baseRemVal = remCompute(750, true);
     </script>
     <!-- Google Tag Manager (noscript) -->
     <noscript>
-      <iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-WSMTM4C"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSMTM4C" height="0" width="0"
+      style="display: none; visibility: hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!-- header begin -->
-    <@_includePlace path="/public/tags/common/header.html"/> <#-- header.html
-    -->
+    <@_includePlace path="/public/tags/common/header.html"/> <#-- header.html -->
     <!-- header end -->
 
    <!-- banner -->
@@ -194,21 +178,23 @@
         Manfaatkan volatilitas forex trading sebagai instrumen dengan volume perdagangan terbesar di dunia dan raih peluang profit Anda dengan transaksi jual beli kapan pun dimana pun.
       </h2>
       <p class="reTit4">Daftarkan akun forex trading Anda sekarang dan jadilah bagian dari pasar finansial global bersama HSB Investasi</p>
-      <div class="pc">
-        <div class="flex1">
-          <a class="pcbtn pcbtn2" href="https://www.hsb.co.id/register" >Buka Akun Demo</a>
-          <a class="pcbtn mouse" href="https://www.hsb.co.id/register" >Buka Akun Live</a>
-        </div>
+      <div class="flex1 btnFlex">
+        <a
+         class="pcbtn pcbtn2"
+         href="https://www.hsb.co.id/register"
+         ><button type="button" class="comBtn blue"> Buka Akun Demo</button></a
+          >
+        <a
+         class="pcbtn mouse"
+         href="https://www.hsb.co.id/register"
+         ><button type="button" class="comBtn">Buka Akun Live</button></a
+          >
       </div>
-      <div class="mobile btnFlex">
-        <a class="pcbtn mouse" href="https://www.hsb.co.id/register" >Buka Akun Live</a>
-        <a class="pcbtn pcbtn2" href="https://www.hsb.co.id/register" >Buka Akun Demo</a>
       </div>
-    </div>
-    <div class="rewardR">
-      <img src="https://www.hsb.co.id/images/forex/trading-forex-m.webp" alt="trading forex" class="mobile"/>
-      <img src="https://www.hsb.co.id/images/forex/trading-forex.webp" alt="trading forex" class="pc"/>
-    </div>
+      <div class="rewardR">
+        <img src="https://www.hsb.co.id/images/forex/trading-forex-m.webp" alt="trading forex" class="mobile"/>
+        <img src="https://www.hsb.co.id/images/forex/trading-forex.webp" alt="trading forex" class="pc"/>
+      </div>
   </div>
   <!-- HSB 在线外汇交易 -->
   <div class="onlineTrading">
@@ -400,25 +386,14 @@
           <div>
             <div class="content on">
               <div class="flex">
-                <table
-                  width="100%"
-                  cellpadding="0"
-                  cellspacing="0"
-                  id="table_price_quote1"
-                >
+                <table width="100%" cellpadding="0" cellspacing="0" id="table_price_quote1">
                   <tbody>
                     <tr class="title">
                       <th class="col-symbol">Market</th>
                       <th class="col-bid">Beli</th>
                       <th class="col-ask">Jual</th>
                       <th class="">Spread</th>
-                      <th class="">
-                        <span class="pc">Perubahan (%)</span
-                        ><span class="mobile"
-                          >Perubahan<br />
-                          (%)</span
-                        >
-                      </th>
+                      <th class=""><span class="pc">Perubahan (%)</span><span class="mobile">Perubahan<br/> (%)</span></th>
                     </tr>
                     <!-- <tr>
                     <td class="country-col">
@@ -459,12 +434,7 @@
               </div>
             </div>
             <div class="content">
-              <table
-                width="100%"
-                cellpadding="0"
-                cellspacing="0"
-                id="table_price_quote2"
-              >
+              <table width="100%" cellpadding="0" cellspacing="0" id="table_price_quote2">
                 <tbody>
                   <tr class="title">
                     <th class="col-symbol">Market</th>
@@ -529,17 +499,7 @@
         <img src="https://www.hsb.co.id/images/forex/komisi-trading-forex-rendah.webp" alt="komisi trading forex rendah" class="pc">
         <img src="https://www.hsb.co.id/images/forex/komisi-trading-forex-rendah-m.webp" alt="komisi trading forex rendah" class="mobile">
       </div>
-      <div class="bannerInfo">
-        <img src="https://www.hsb.co.id/images/forex/lowest.webp" alt="lowest">
-        <div class="pc">
-          <h2>Komisi Trading Forex Terendah</h2>
-          <p>Hanya di HSB Investasi, komisi trading forex online terendah se-Indonesia</p>
-        </div>
-        <div class="mobile">
-          <h2>Komisi Trading Forex Terendah Se-Indonesia</h2>
-        </div>
-        <a class="pcbtn cbodybtn font-family-bold" href="https://www.hsb.co.id/register">Trading Sekarang!</a>
-      </div>
+      
     </div>
   </div>
 
@@ -590,7 +550,7 @@
             <a href="https://www.hsb.co.id/learn/forex/what-is-forex.html">
             <div class="articleLeft">
               <img
-                src="https://www.hsb.co.id/images/kelas-trading-forex/apa-itu-forex.webp"
+                src="https://www.hsb.co.id/learn/images/foreign-exchange-booth.png"
                 alt="apa itu forex"
               />
             </div>
@@ -877,8 +837,8 @@
     </h2>
     <ul class="ulList2 flex">
       <li>
-         <div class="name">HSB Mobile Apps</div>
-         <div class="subTitle">
+        <a href="https://www.hsb.co.id/platforms/aplikasi-trading" class="name">HSB Mobile Apps</a>
+        <div class="subTitle">
             Raih peluang trading forex online dari mana saja, kapan saja
          </div>
          <img src="https://www.hsb.co.id/images/forex/aplikasi-trading-online-hsb.webp" alt="aplikasi trading online forex" class="mobileApp img1">
@@ -886,7 +846,7 @@
       <li class="pc">
         <div class="liItem">
           <div>
-              <div class="name">Web Platform Intuitif</div>
+              <a href="https://www.hsb.co.id/register" class="name">Web Platform Intuitif</a>
               <div class="subTitle">
                 Temukan strategi trading forex online yang cerdas dan jelas
                 untuk memenangkan persaingan pasar global
@@ -896,7 +856,7 @@
         </div>
         <div class="liItem">
           <div>
-              <div class="name">MetaTrader 5</div>
+              <a href="https://www.hsb.co.id/platforms/metatrader-5" class="name">MetaTrader 5</a>
               <div class="subTitle2">
                 Persiapkan algoritma trading forex online Anda untuk eksekusi
                 transaksi secara otomatis kapan pun
@@ -908,7 +868,7 @@
      <li class="mobile">
         <div class="liItem">
           <div>
-              <div class="name">Web Platform Intuitif</div>
+              <a href="https://www.hsb.co.id/register" class="name">Web Platform Intuitif</a>
               <div class="subTitle">
                 Temukan strategi trading forex online yang cerdas dan jelas
                 untuk memenangkan persaingan pasar global
@@ -920,12 +880,12 @@
     <li class="mobile">
       <div class="liItem">
         <div>
-            <div class="name">MetaTrader 5</div>
+            <a href="https://www.hsb.co.id/platforms/metatrader-5" class="name">MetaTrader 5</a>
             <div class="subTitle">
               Persiapkan algoritma trading forex online Anda untuk eksekusi transaksi secara otomatis kapan pun
             </div>
         </div>
-        <img src="https://www.hsb.co.id/images/forex/metatrader5.webp" alt="metatrader5" class="computer">
+        <img src="https://www.hsb.co.id/images/forex/metatrader5.webp" alt="metatrader5" class="mobileApp img3">
       </div>
     </li>
     </ul>
@@ -936,7 +896,7 @@
     <div class="wid flex relative registerContent">
       <div class="regL">
         <h3 class="title font-family-medium">Registrasi Akun Trading HSB</h3>
-        <div class="regR mobile"><img src="https://www.hsb.co.id/images/forex/registrasi-akun-hsb.png" alt="registrasi akun hsb" /></div>
+        <div class="regR mobile"><img src="https://www.hsb.co.id/new-offical/images/index/h5/computer.png" alt="computer" /></div>
         <ul>
           <li>
             <div class="titleTop">
@@ -1015,7 +975,7 @@
         </div>
       </div>
       <div class="regR pc">
-        <img src="https://www.hsb.co.id/images/homepage/computer.webp" alt="computer" />
+        <img src="https://www.hsb.co.id/images/forex/computer.webp" alt="computer" />
       </div>
     </div>
   </div>
@@ -1027,53 +987,44 @@
     <!-- footer end -->
 
     <script type="text/javascript" src="/new-offical/js/jquery.min.js"></script>
-    <script
-      type="text/javascript"
-      src="/new-offical/js/swiper-bundle.min.js"
-    ></script>
+    <script type="text/javascript" src="/new-offical/js/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="/js/common.js"></script>
-    <script
-      type="text/javascript"
-      src="/new-offical/js/pricequote2.js"
-    ></script>
+    <script type="text/javascript" src="/new-offical/js/pricequote2.js"></script>
     <script>
-      var vipSwiper = new Swiper('.vipSwiper', {
+      var vipSwiper = new Swiper(".vipSwiper", {
         spaceBetween: 20,
         loop: false,
         centeredSlides: true,
         slidesPerView: 1.28,
-        ovserver: true,
-        observeParents: true,
+        ovserver:true,
+        observeParents:true,
         pagination: {
-          el: '.swiper-pagination1',
+          el: ".swiper-pagination1",
         },
       })
-      var tradingWaySwiper = new Swiper('.tradingWaySwiper', {
+      var tradingWaySwiper = new Swiper(".tradingWaySwiper", {
         // autoplay: {
         //   delay: 2500,
         //   disableOnInteraction: false,
         // },
-        ovserver: true,
-        observeParents: true,
+        ovserver:true,
+        observeParents:true,
         slidesPerView: 1,
         speed: 500,
         loop: true,
         pagination: {
-          el: '.swiper-pagination2',
+          el: ".swiper-pagination2",
         },
-      })
-      $(function () {
-        ajaxFn({ SymbolCataType: 1 }).done(function (data) {
-          var _type = 'type1'
-          // $('#table_price_quote1').append(generateHtml(data,_type));
-          $('#table_price_quote1').append(renderMajorList(data, _type))
-          $('#table_price_quote2').append(renderCrossList(data, _type))
-          quotationConnectW(
-            wsUrl + '&SymbolCataType=1&SymbolId=' + codeId[_type].join(','),
-            ''
-          )
-        })
-      })
+      });
+      $(function(){
+        ajaxFn({SymbolCataType:1}).done(function(data){
+            var _type = "type1";
+            // $('#table_price_quote1').append(generateHtml(data,_type));
+            $('#table_price_quote1').append(renderMajorList(data,_type));
+            $('#table_price_quote2').append(renderCrossList(data,_type));
+            quotationConnectW(wsUrl+'&SymbolCataType=1&SymbolId='+codeId[_type].join(','), '');
+        });
+    })
     </script>
   </body>
 </html>

@@ -225,8 +225,10 @@
             <div class="tab">
                 <div class="flex tabbox">
                     <!-- tabactive -->
-                    <a class="mouse tabactive grag font-family-bold"><img src="https://www.hsb.co.id/images/komoditas/emas.webp" alt="trading emas"/> Trading Emas</a>
-                    <a class="mouse grag font-family-bold"><img src="https://www.hsb.co.id/images/komoditas/minyak.webp" alt="trading minyak"/>Trading Minyak</a>
+                    <a class="mouse tabactive grag font-family-bold"><img src="https://www.hsb.co.id/images/komoditas/emas.webp" alt="trading emas"/>Keuntungan Trading Emas Berjangka
+                    </a>
+                    <a class="mouse grag font-family-bold"><img src="https://www.hsb.co.id/images/komoditas/minyak.webp" alt="trading minyak"/>Keuntungan Trading Komoditi Minyak
+                    </a>
                 </div>
             </div>
             <div class="content on">
@@ -396,7 +398,7 @@
                     </li>
                     <li class="flex">
                       <a href="https://blog.hsb.co.id/tutorial-aplikasi-hsb-investasi/tips-untuk-pemula-menggunakan-akun-demo-di-hsb-investasi/">
-      
+          
                       <div class="articleLeft">
                         <img
                           src="https://blog.hsb.co.id/wp-content/uploads/2020/04/tips-tips-menggunakan-akun-demo-di-hsb-investasi-cover-edited.png"
@@ -416,7 +418,7 @@
                       <a href="https://www.hsb.co.id/learn/forex/what-is-forex.html">
                       <div class="articleLeft">
                         <img
-                          src="https://www.hsb.co.id/images/kelas-trading-forex/apa-itu-forex.webp"
+                          src="https://www.hsb.co.id/learn/images/foreign-exchange-booth.png"
                           alt="apa itu forex"
                         />
                       </div>
@@ -744,14 +746,14 @@
         <div class="wid flex relative registerContent">
             <div class="regL">
                 <h3 class="title font-family-medium">Registrasi Akun Trading HSB</h3>
-                <div class="regR mobile"><img src="https://www.hsb.co.id/images/indeks/registrasi-akun-hsb.webp" alt="registrasi akun hsb" /></div>
+                <div class="regR mobile"><img src="https://www.hsb.co.id/images/komoditas/registrasi-akun-hsb.webp" alt="registrasi akun hsb" /></div>
 
                 <ul>
                     <li>
                         <div class="titleTop">
                             <div class="flex flexAlign">
                                 <div>
-                                    <img src="https://www.hsb.co.id/images/homepage/hook.webp" alt="hook" />
+                                    <img src="https://www.hsb.co.id/images/komoditas/hook.webp" alt="hook" />
                                 </div>
                                 <div class="name">Akses Fleksibel ke Pasar Global</div>
                             </div>
@@ -766,7 +768,7 @@
                         <div class="titleTop">
                             <div class="flex flexAlign">
                                 <div>
-                                    <img src="https://www.hsb.co.id/images/homepage/hook.webp" alt="hook" />
+                                    <img src="https://www.hsb.co.id/images/komoditas/hook.webp" alt="hook" />
                                 </div>
                                 <div class="name">Platform Trading All- in-one</div>
                             </div>
@@ -781,7 +783,7 @@
                         <div class="titleTop">
                             <div class="flex flexAlign">
                                 <div>
-                                    <img src="https://www.hsb.co.id/images/homepage/hook.webp" alt="hook" />
+                                    <img src="https://www.hsb.co.id/images/komoditas/hook.webp" alt="hook" />
                                 </div>
                                 <div class="name">Deposit & Withdrawal Kilat</div>
                             </div>
@@ -796,7 +798,7 @@
                         <div class="titleTop">
                             <div class="flex flexAlign">
                                 <div>
-                                    <img src="https://www.hsb.co.id/images/homepage/hook.webp" alt="hook" />
+                                    <img src="https://www.hsb.co.id/images/komoditas/hook.webp" alt="hook" />
                                 </div>
                                 <div class="name">Broker Trading Terpercaya</div>
                             </div>
@@ -826,51 +828,43 @@
                 </div>
             </div>
             <div class="regR pc">
-                <img src="https://www.hsb.co.id/images/indeks/registrasi-akun-hsb-pc.webp" alt="registrasi akun hsb pc" />
+                <img src="https://www.hsb.co.id/images/komoditas/registrasi-akun-hsb-pc.webp" alt="registrasi akun hsb pc" />
             </div>
         </div>
     </div>
 
-    <!-- footer begin -->
-    <@_includePlace path="/public/tags/common/footer.html"/> <#-- footer.html
-    -->
-    <!-- footer end -->
+   
+   <!-- footer begin -->
+   <@_includePlace path="/public/tags/common/footer.html"/> <#-- footer.html -->
+   <!-- footer end -->
 
-    <script type="text/javascript" src="/new-offical/js/jquery.min.js"></script>
-    <script
-      type="text/javascript"
-      src="/new-offical/js/swiper-bundle.min.js"
-    ></script>
-    <script type="text/javascript" src="/js/common.js"></script>
-    <script
-      type="text/javascript"
-      src="/new-offical/js/pricequote2.js"
-    ></script>
-    <script>
-      var tradingWaySwiper = new Swiper('.tradingWaySwiper', {
-        // autoplay: {
-        //   delay: 2500,
-        //   disableOnInteraction: false,
-        // },
-        ovserver: true,
-        observeParents: true,
-        slidesPerView: 1,
-        speed: 500,
-        loop: true,
-        pagination: {
-          el: '.swiper-pagination2',
-        },
-      })
-      $(function () {
-        ajaxFn({ SymbolCataType: 2 }).done(function (data) {
-          var _type = 'type1'
-          $('#table_price_quote1').append(generateHtml(data, _type))
-          quotationConnectW(
-            wsUrl + '&SymbolCataType=2&SymbolId=' + codeId[_type].join(','),
-            ''
-          )
-        })
-      })
-    </script>
+ <script type="text/javascript" src="/new-offical/js/jquery.min.js"></script>
+ <script type="text/javascript" src="/new-offical/js/swiper-bundle.min.js"></script>
+ <script type="text/javascript" src="/js/common.js"></script>
+ <script type="text/javascript" src="/new-offical/js/pricequote2.js"></script>
+ <script>
+   var tradingWaySwiper = new Swiper(".tradingWaySwiper", {
+       // autoplay: {
+       //   delay: 2500,
+       //   disableOnInteraction: false,
+       // },
+       ovserver:true,
+       observeParents:true,
+       slidesPerView: 1,
+       speed: 500,
+       loop: true,
+       pagination: {
+         el: ".swiper-pagination2",
+       },
+   });
+    $(function () {
+           ajaxFn({ SymbolCataType: 2 }).done(function (data) {
+               var _type = "type1";
+               $('#table_price_quote1').append(generateHtml(data, _type));
+               quotationConnectW(wsUrl + '&SymbolCataType=2&SymbolId=' + codeId[_type].join(','), '');
+           });
+       })
+    
+ </script>
   </body>
 </html>
